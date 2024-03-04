@@ -1,0 +1,4047 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f133e10c1aa4274f4dc4810772c18897 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f133e10c1aa4274f4dc4810772c18897" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f133e10c1aa4274f4dc4810772c18897 = L.map(
+                "map_f133e10c1aa4274f4dc4810772c18897",
+                {
+                    center: [-22.3145, -49.06],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7c3db10529218d8bca4bf38a766dec1c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_7c3db10529218d8bca4bf38a766dec1c.addTo(map_f133e10c1aa4274f4dc4810772c18897);
+    
+            var marker_0af64759cec1bb0303f74855d6d6a385 = L.marker(
+                [-22.3395066, -49.045083932652375],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+            var icon_56e9a017664c48f28bfdefe878addda2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0af64759cec1bb0303f74855d6d6a385.setIcon(icon_56e9a017664c48f28bfdefe878addda2);
+        
+    
+        var popup_40aec08709d39163fd57127683329f4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d672f1eb8ef95135a79be0c21f49a93 = $(`<div id="html_5d672f1eb8ef95135a79be0c21f49a93" style="width: 100.0%; height: 100.0%;"><b>Local do Usuário</b><br>(-22.3395066, -49.045083932652375)</div>`)[0];
+                popup_40aec08709d39163fd57127683329f4d.setContent(html_5d672f1eb8ef95135a79be0c21f49a93);
+            
+        
+
+        marker_0af64759cec1bb0303f74855d6d6a385.bindPopup(popup_40aec08709d39163fd57127683329f4d)
+        ;
+
+        
+    
+    
+            var marker_eaff855b777c4ed9bf2c9ce26416b03f = L.marker(
+                [-22.3345612, -49.0343943],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_9ae3571a1f1ee9f149e5ee4342258909 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f80b564b8db47b358fef4f41e95a832 = $(`<div id="html_3f80b564b8db47b358fef4f41e95a832" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA DIVISA DO FRIGORÍFICO MONDELLI COM RUA ARLINDO PINTO FERREIRA.</b><br>Distância: 1.23 km<br>Salário: 7693.65</div>`)[0];
+                popup_9ae3571a1f1ee9f149e5ee4342258909.setContent(html_3f80b564b8db47b358fef4f41e95a832);
+            
+        
+
+        marker_eaff855b777c4ed9bf2c9ce26416b03f.bindPopup(popup_9ae3571a1f1ee9f149e5ee4342258909)
+        ;
+
+        
+    
+    
+            var marker_0c91a1c1c70ed0366e16aa2b98b4f4e8 = L.marker(
+                [-22.3330744, -49.0269694],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_a4a2515913731bf94710a324c98ac7af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90566b177e2ee229bf574d10f9770c8e = $(`<div id="html_90566b177e2ee229bf574d10f9770c8e" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA PROFESSOR NEMPUKU SATO COM A RUA BARÃO DE ITAPETININGA.</b><br>Distância: 2.00 km<br>Salário: 7655.94</div>`)[0];
+                popup_a4a2515913731bf94710a324c98ac7af.setContent(html_90566b177e2ee229bf574d10f9770c8e);
+            
+        
+
+        marker_0c91a1c1c70ed0366e16aa2b98b4f4e8.bindPopup(popup_a4a2515913731bf94710a324c98ac7af)
+        ;
+
+        
+    
+    
+            var marker_2f09b523f65794baddccc881b3dfee20 = L.marker(
+                [-22.3363615, -49.028468],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_a1fab52b9a4eae41cc1ba95514f0f3bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6f952c7be6e2f871e86e90b03a99791 = $(`<div id="html_e6f952c7be6e2f871e86e90b03a99791" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA CYRENIO FERRAZ DE AGUIAR COM A RUA ALZIRO ZARUR.</b><br>Distância: 1.75 km<br>Salário: 6033.44</div>`)[0];
+                popup_a1fab52b9a4eae41cc1ba95514f0f3bc.setContent(html_e6f952c7be6e2f871e86e90b03a99791);
+            
+        
+
+        marker_2f09b523f65794baddccc881b3dfee20.bindPopup(popup_a1fab52b9a4eae41cc1ba95514f0f3bc)
+        ;
+
+        
+    
+    
+            var marker_4ed07e19feab959d0128fb314b515227 = L.marker(
+                [-22.3345612, -49.0343943],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_d0f43550d5b5d678fb2b30ff19628c42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd1bebc215a3deb81941f3f0f0edaca1 = $(`<div id="html_dd1bebc215a3deb81941f3f0f0edaca1" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA BENEDITO RIBEIRO DOS SANTOS COM A RUA MARECHAL DEODORO.</b><br>Distância: 1.23 km<br>Salário: 5817.43</div>`)[0];
+                popup_d0f43550d5b5d678fb2b30ff19628c42.setContent(html_dd1bebc215a3deb81941f3f0f0edaca1);
+            
+        
+
+        marker_4ed07e19feab959d0128fb314b515227.bindPopup(popup_d0f43550d5b5d678fb2b30ff19628c42)
+        ;
+
+        
+    
+    
+            var marker_e9ecc957ea3592ea256423e2f181a951 = L.marker(
+                [-22.3383196, -49.0564754],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_46be7382e76a7561bdc077902b0020cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bb4276dd87723b1f405cd7cb957a3f8 = $(`<div id="html_5bb4276dd87723b1f405cd7cb957a3f8" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA PROFESSOR GERSON RODRIGUES COM A RUA IBRAIN NOBRE.</b><br>Distância: 1.18 km<br>Salário: 5562.99</div>`)[0];
+                popup_46be7382e76a7561bdc077902b0020cc.setContent(html_5bb4276dd87723b1f405cd7cb957a3f8);
+            
+        
+
+        marker_e9ecc957ea3592ea256423e2f181a951.bindPopup(popup_46be7382e76a7561bdc077902b0020cc)
+        ;
+
+        
+    
+    
+            var marker_771f10412d6293d5f520ac30d57f1937 = L.marker(
+                [-22.3214181, -49.1272217],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_d6b8b7c80eeb171d03e1a6ae41a0d2c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aa0a929131d766c501ad3bba2982fe7 = $(`<div id="html_0aa0a929131d766c501ad3bba2982fe7" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DO CÓRREGO ÁGUA COMPRIDA COM RUA ADANTE GIGO.</b><br>Distância: 8.70 km<br>Salário: 5297.07</div>`)[0];
+                popup_d6b8b7c80eeb171d03e1a6ae41a0d2c8.setContent(html_0aa0a929131d766c501ad3bba2982fe7);
+            
+        
+
+        marker_771f10412d6293d5f520ac30d57f1937.bindPopup(popup_d6b8b7c80eeb171d03e1a6ae41a0d2c8)
+        ;
+
+        
+    
+    
+            var marker_162e7777cc9240e41637b2794aea09c8 = L.marker(
+                [-22.332199, -49.0703225],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_f0f36f4d3be94149e33def6a22d2c04c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ebb4f76c64adf654c31c13521263a7e = $(`<div id="html_8ebb4f76c64adf654c31c13521263a7e" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA AGENOR MEIRA COM A RUA PADRE JOÃO.</b><br>Distância: 2.72 km<br>Salário: 4486.02</div>`)[0];
+                popup_f0f36f4d3be94149e33def6a22d2c04c.setContent(html_8ebb4f76c64adf654c31c13521263a7e);
+            
+        
+
+        marker_162e7777cc9240e41637b2794aea09c8.bindPopup(popup_f0f36f4d3be94149e33def6a22d2c04c)
+        ;
+
+        
+    
+    
+            var marker_bd22c3f3118999aa4751427798b05ccf = L.marker(
+                [-22.3382263, -49.0531724],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_63587392fd7a243d28024b11251a4299 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd0a84aeabc8f854c400a2865cf8b0ed = $(`<div id="html_cd0a84aeabc8f854c400a2865cf8b0ed" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA HENRIQUE SAVI COM A RUA FELÍCIO SOUBHIE.</b><br>Distância: 0.85 km<br>Salário: 4403.97</div>`)[0];
+                popup_63587392fd7a243d28024b11251a4299.setContent(html_cd0a84aeabc8f854c400a2865cf8b0ed);
+            
+        
+
+        marker_bd22c3f3118999aa4751427798b05ccf.bindPopup(popup_63587392fd7a243d28024b11251a4299)
+        ;
+
+        
+    
+    
+            var marker_27e20c6129c18636031491dbb187a966 = L.marker(
+                [-22.320703, -49.0404566],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_10869a140445cc2b54e2db162b9b9ae0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79e201f6238c279010a533c1c5516aa3 = $(`<div id="html_79e201f6238c279010a533c1c5516aa3" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA JOSÉ ABRAÇOS SANTINHO COM A AVENIDA CRUZEIRO DO SUL.</b><br>Distância: 2.14 km<br>Salário: 4191.28</div>`)[0];
+                popup_10869a140445cc2b54e2db162b9b9ae0.setContent(html_79e201f6238c279010a533c1c5516aa3);
+            
+        
+
+        marker_27e20c6129c18636031491dbb187a966.bindPopup(popup_10869a140445cc2b54e2db162b9b9ae0)
+        ;
+
+        
+    
+    
+            var marker_801adffeebce4e4e1d3975f7ae3ff6f6 = L.marker(
+                [-22.332199, -49.0703225],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_d0ee7dbffe6ad216745d4483d0a85ac2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e48df121ecb1fcde640ac5f696dda57 = $(`<div id="html_6e48df121ecb1fcde640ac5f696dda57" style="width: 100.0%; height: 100.0%;"><b>RUA AGENOR MEIRA COM A AVENIDA DUQUE DE CAXIAS.</b><br>Distância: 2.72 km<br>Salário: 3675.65</div>`)[0];
+                popup_d0ee7dbffe6ad216745d4483d0a85ac2.setContent(html_6e48df121ecb1fcde640ac5f696dda57);
+            
+        
+
+        marker_801adffeebce4e4e1d3975f7ae3ff6f6.bindPopup(popup_d0ee7dbffe6ad216745d4483d0a85ac2)
+        ;
+
+        
+    
+    
+            var marker_113319478dea503874bbd9894ef207a0 = L.marker(
+                [-22.3383196, -49.0564754],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_649cfb46294ff77b8334dbfb7839ace8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36533cae8f5abfffedd09b53dfe52c75 = $(`<div id="html_36533cae8f5abfffedd09b53dfe52c75" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA PROFESSOR GERSON RODRIGUES COM A RUA ABRAHAO RAHAL.</b><br>Distância: 1.18 km<br>Salário: 3460.30</div>`)[0];
+                popup_649cfb46294ff77b8334dbfb7839ace8.setContent(html_36533cae8f5abfffedd09b53dfe52c75);
+            
+        
+
+        marker_113319478dea503874bbd9894ef207a0.bindPopup(popup_649cfb46294ff77b8334dbfb7839ace8)
+        ;
+
+        
+    
+    
+            var marker_39ae2591c6b416aa8156ac56864e3766 = L.marker(
+                [-22.3214181, -49.1272217],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_bdaeea03c0b610739e1aafe7213a5bc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9af8c272f9456c5214502f9ec5e8dbc2 = $(`<div id="html_9af8c272f9456c5214502f9ec5e8dbc2" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA ALAMEDA TRÊS LAGOAS COM A RUA JOÃO QUAGGIO.</b><br>Distância: 8.70 km<br>Salário: 3456.45</div>`)[0];
+                popup_bdaeea03c0b610739e1aafe7213a5bc4.setContent(html_9af8c272f9456c5214502f9ec5e8dbc2);
+            
+        
+
+        marker_39ae2591c6b416aa8156ac56864e3766.bindPopup(popup_bdaeea03c0b610739e1aafe7213a5bc4)
+        ;
+
+        
+    
+    
+            var marker_699a1feeff27b5c1e978782584540c99 = L.marker(
+                [-22.3187988, -49.0688239],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_3b8c3911547842206731c2833da0e239 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a088f30f3885b406da21ea9131d06b35 = $(`<div id="html_a088f30f3885b406da21ea9131d06b35" style="width: 100.0%; height: 100.0%;"><b>RUA ENGENHEIRO SAINT MARTIN COM A AVENIDA RODRIGUES ALVES.</b><br>Distância: 3.35 km<br>Salário: 3409.08</div>`)[0];
+                popup_3b8c3911547842206731c2833da0e239.setContent(html_a088f30f3885b406da21ea9131d06b35);
+            
+        
+
+        marker_699a1feeff27b5c1e978782584540c99.bindPopup(popup_3b8c3911547842206731c2833da0e239)
+        ;
+
+        
+    
+    
+            var marker_f9ff8b3dfdea3379ac16eba3554565a8 = L.marker(
+                [-22.332199, -49.0703225],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_0542442d294de0e1e083fad532aaa48f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00cc5654140b424a5408507e51b58b71 = $(`<div id="html_00cc5654140b424a5408507e51b58b71" style="width: 100.0%; height: 100.0%;"><b> RUA AGENOR MEIRA COM A RUA BATISTA DE CARVALHO.</b><br>Distância: 2.72 km<br>Salário: 3385.36</div>`)[0];
+                popup_0542442d294de0e1e083fad532aaa48f.setContent(html_00cc5654140b424a5408507e51b58b71);
+            
+        
+
+        marker_f9ff8b3dfdea3379ac16eba3554565a8.bindPopup(popup_0542442d294de0e1e083fad532aaa48f)
+        ;
+
+        
+    
+    
+            var marker_97704245049e180f15b06b9a0c4efe07 = L.marker(
+                [-22.3189735, -49.0556085],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_3484c50de47c8ebe63562df4e44d2eab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55dda3d42ee920d6a3982bc219618b38 = $(`<div id="html_55dda3d42ee920d6a3982bc219618b38" style="width: 100.0%; height: 100.0%;"><b>RESIDENCIAL VILA VERDE - LOCALIZADO NA RUA CRISTIANO PAGANI NÚMERO 8-51.
+ </b><br>Distância: 2.52 km<br>Salário: 3334.27</div>`)[0];
+                popup_3484c50de47c8ebe63562df4e44d2eab.setContent(html_55dda3d42ee920d6a3982bc219618b38);
+            
+        
+
+        marker_97704245049e180f15b06b9a0c4efe07.bindPopup(popup_3484c50de47c8ebe63562df4e44d2eab)
+        ;
+
+        
+    
+    
+            var marker_4b061879af956dc03e3b24b31dcce184 = L.marker(
+                [-22.3290722, -49.0733677],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_fc14ded799a67c8b0032b073ff56a8e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6b6934857a6fa8662dff7673cc34b6e = $(`<div id="html_e6b6934857a6fa8662dff7673cc34b6e" style="width: 100.0%; height: 100.0%;"><b> RUA VIRGÍLIO MALTA COM A RUA BATISTA DE CARVALHO.</b><br>Distância: 3.13 km<br>Salário: 3165.29</div>`)[0];
+                popup_fc14ded799a67c8b0032b073ff56a8e9.setContent(html_e6b6934857a6fa8662dff7673cc34b6e);
+            
+        
+
+        marker_4b061879af956dc03e3b24b31dcce184.bindPopup(popup_fc14ded799a67c8b0032b073ff56a8e9)
+        ;
+
+        
+    
+    
+            var marker_32d4163cc4790b118271a52880f03930 = L.marker(
+                [-22.3237773, -49.0621548],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_e7082519a1fd5e0fdaeea9640031f7aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d6340eb218eb3e05b8fc3ead40507ff = $(`<div id="html_0d6340eb218eb3e05b8fc3ead40507ff" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA HERMÍNIO PINTO COM A AVENIDA DUQUE DE CAXIAS.</b><br>Distância: 2.48 km<br>Salário: 3143.21</div>`)[0];
+                popup_e7082519a1fd5e0fdaeea9640031f7aa.setContent(html_0d6340eb218eb3e05b8fc3ead40507ff);
+            
+        
+
+        marker_32d4163cc4790b118271a52880f03930.bindPopup(popup_e7082519a1fd5e0fdaeea9640031f7aa)
+        ;
+
+        
+    
+    
+            var marker_3b0f0fc585f4dc8ff80dcca8abc25bed = L.marker(
+                [-22.3537175, -49.0880182],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_0d5c7a2d0b8ff39ae3501ef40d6d1d45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15d5bff3a38ce982d09e4d81b78fa13a = $(`<div id="html_15d5bff3a38ce982d09e4d81b78fa13a" style="width: 100.0%; height: 100.0%;"><b>RUA FELICÍSSIMO ANTÔNIO PEREIRA COM A RUA ITORORÓ.</b><br>Distância: 4.69 km<br>Salário: 3141.41</div>`)[0];
+                popup_0d5c7a2d0b8ff39ae3501ef40d6d1d45.setContent(html_15d5bff3a38ce982d09e4d81b78fa13a);
+            
+        
+
+        marker_3b0f0fc585f4dc8ff80dcca8abc25bed.bindPopup(popup_0d5c7a2d0b8ff39ae3501ef40d6d1d45)
+        ;
+
+        
+    
+    
+            var marker_8066f014fc1f704dd018057f6fc5c53c = L.marker(
+                [-22.3262318, -49.0656716],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_50b86313246046ffdaa145288b8279fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6434ad239ab173128cf9d7ac6267573 = $(`<div id="html_f6434ad239ab173128cf9d7ac6267573" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA PROFESSOR JOSÉ RANIERI COM A RUA DA CONSTITUICAO.</b><br>Distância: 2.58 km<br>Salário: 3086.21</div>`)[0];
+                popup_50b86313246046ffdaa145288b8279fd.setContent(html_f6434ad239ab173128cf9d7ac6267573);
+            
+        
+
+        marker_8066f014fc1f704dd018057f6fc5c53c.bindPopup(popup_50b86313246046ffdaa145288b8279fd)
+        ;
+
+        
+    
+    
+            var marker_0369e47990d8b446b1c054d319d3e8c5 = L.marker(
+                [-22.3290722, -49.0733677],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_bd2443312e15c3527d32f5916b2492e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b39be0e4c8ee86b1c6c98a160c3f9af6 = $(`<div id="html_b39be0e4c8ee86b1c6c98a160c3f9af6" style="width: 100.0%; height: 100.0%;"><b>RUA VIRGÍLIO MALTA COM A AVENIDA DUQUE DE CAXIAS.</b><br>Distância: 3.13 km<br>Salário: 3067.81</div>`)[0];
+                popup_bd2443312e15c3527d32f5916b2492e6.setContent(html_b39be0e4c8ee86b1c6c98a160c3f9af6);
+            
+        
+
+        marker_0369e47990d8b446b1c054d319d3e8c5.bindPopup(popup_bd2443312e15c3527d32f5916b2492e6)
+        ;
+
+        
+    
+    
+            var marker_e5f32bc79be88ef916eac44131c81da1 = L.marker(
+                [-22.3237773, -49.0621548],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_b66594547ebc2919f113a390b87cc97f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b429779736ec904060893e867f63d37 = $(`<div id="html_8b429779736ec904060893e867f63d37" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA HERMÍNIO PINTO COM A RUA VOLUNTÁRIOS DA PÁTRIA.</b><br>Distância: 2.48 km<br>Salário: 3061.47</div>`)[0];
+                popup_b66594547ebc2919f113a390b87cc97f.setContent(html_8b429779736ec904060893e867f63d37);
+            
+        
+
+        marker_e5f32bc79be88ef916eac44131c81da1.bindPopup(popup_b66594547ebc2919f113a390b87cc97f)
+        ;
+
+        
+    
+    
+            var marker_5bdc0e52c8d4ca932aac3e574855ac67 = L.marker(
+                [-22.3290722, -49.0733677],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_d03342e697bc3e8f89fac1cfd635da78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03fe3afe1c8d3ebe2387cb5635f8a47e = $(`<div id="html_03fe3afe1c8d3ebe2387cb5635f8a47e" style="width: 100.0%; height: 100.0%;"><b> RUA VIRGÍLIO MALTA COM A PRAÇA RODRIGUES DE ABREU.</b><br>Distância: 3.13 km<br>Salário: 3035.63</div>`)[0];
+                popup_d03342e697bc3e8f89fac1cfd635da78.setContent(html_03fe3afe1c8d3ebe2387cb5635f8a47e);
+            
+        
+
+        marker_5bdc0e52c8d4ca932aac3e574855ac67.bindPopup(popup_d03342e697bc3e8f89fac1cfd635da78)
+        ;
+
+        
+    
+    
+            var marker_cc7d01b4dfbe0f510feb2cab2df9b7da = L.marker(
+                [-22.3537175, -49.0880182],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_2c0f506316cc79cd034556c52bfc793f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f994436662dd028d360d59172b311b4 = $(`<div id="html_9f994436662dd028d360d59172b311b4" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA FELICISSIMO ANTÔNIO PEREIRA COM A RUA COLOMBIA.</b><br>Distância: 4.69 km<br>Salário: 3021.68</div>`)[0];
+                popup_2c0f506316cc79cd034556c52bfc793f.setContent(html_9f994436662dd028d360d59172b311b4);
+            
+        
+
+        marker_cc7d01b4dfbe0f510feb2cab2df9b7da.bindPopup(popup_2c0f506316cc79cd034556c52bfc793f)
+        ;
+
+        
+    
+    
+            var marker_94025aae2ede0481e38b80302be6c103 = L.marker(
+                [-22.3149316, -49.090467],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_bbf23c3e9db908afcdf4ce47ab743b19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77d2d9ff97f47691f705dba525c24e3d = $(`<div id="html_77d2d9ff97f47691f705dba525c24e3d" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA EUGENIO BORRO COM A RUA DONA MARIETA FRANCA.</b><br>Distância: 5.41 km<br>Salário: 3005.40</div>`)[0];
+                popup_bbf23c3e9db908afcdf4ce47ab743b19.setContent(html_77d2d9ff97f47691f705dba525c24e3d);
+            
+        
+
+        marker_94025aae2ede0481e38b80302be6c103.bindPopup(popup_bbf23c3e9db908afcdf4ce47ab743b19)
+        ;
+
+        
+    
+    
+            var marker_18b2f9e4f5cf3b7bd1c21f1a23bd8e3e = L.marker(
+                [-22.3280447, -49.045987],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_26eca71e8056f64b2bdc0677e56a6396 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f809e4c16d02c6f939b8dce91a639d7a = $(`<div id="html_f809e4c16d02c6f939b8dce91a639d7a" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA GALVÃO DE CASTRO COM A RUA ESPÍRITO SANTO.</b><br>Distância: 1.27 km<br>Salário: 2981.77</div>`)[0];
+                popup_26eca71e8056f64b2bdc0677e56a6396.setContent(html_f809e4c16d02c6f939b8dce91a639d7a);
+            
+        
+
+        marker_18b2f9e4f5cf3b7bd1c21f1a23bd8e3e.bindPopup(popup_26eca71e8056f64b2bdc0677e56a6396)
+        ;
+
+        
+    
+    
+            var marker_8c61cd9312ff13c207548655582bcdd8 = L.marker(
+                [-22.3187988, -49.0688239],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_ca0dfa27b7f5bef5728a98ca3faa4de1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45860dae2ae8c41b31094630052bf6a8 = $(`<div id="html_45860dae2ae8c41b31094630052bf6a8" style="width: 100.0%; height: 100.0%;"><b>RUA ENGENHEIRO SAINT MARTIN COM A RUA CONSELHEIRO ANTÔNIO PRADO.</b><br>Distância: 3.35 km<br>Salário: 2937.40</div>`)[0];
+                popup_ca0dfa27b7f5bef5728a98ca3faa4de1.setContent(html_45860dae2ae8c41b31094630052bf6a8);
+            
+        
+
+        marker_8c61cd9312ff13c207548655582bcdd8.bindPopup(popup_ca0dfa27b7f5bef5728a98ca3faa4de1)
+        ;
+
+        
+    
+    
+            var marker_3fcfa45c5ff0800318e95c566a2a298d = L.marker(
+                [-22.3272071, -49.0696333],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_749919518baf9760871967cea1cf9aa1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_944829a68b6c46c91e02b4f6314df2aa = $(`<div id="html_944829a68b6c46c91e02b4f6314df2aa" style="width: 100.0%; height: 100.0%;"><b> RUA GUSTAVO MACIEL COM A RUA BATISTA DE CARVALHO.</b><br>Distância: 2.87 km<br>Salário: 2932.18</div>`)[0];
+                popup_749919518baf9760871967cea1cf9aa1.setContent(html_944829a68b6c46c91e02b4f6314df2aa);
+            
+        
+
+        marker_3fcfa45c5ff0800318e95c566a2a298d.bindPopup(popup_749919518baf9760871967cea1cf9aa1)
+        ;
+
+        
+    
+    
+            var marker_875cb45a7fee71ce04c366ee3585697f = L.marker(
+                [-22.3067261, -49.0631951],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_1839ac485e053911098fd1609664d485 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c926ee51a74dab920b81cfd73c3fa9fb = $(`<div id="html_c926ee51a74dab920b81cfd73c3fa9fb" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA ALAMEDA DOS HELIOTROPOS COM A ALAMEDA DOS CRAVOS.</b><br>Distância: 4.08 km<br>Salário: 2906.71</div>`)[0];
+                popup_1839ac485e053911098fd1609664d485.setContent(html_c926ee51a74dab920b81cfd73c3fa9fb);
+            
+        
+
+        marker_875cb45a7fee71ce04c366ee3585697f.bindPopup(popup_1839ac485e053911098fd1609664d485)
+        ;
+
+        
+    
+    
+            var marker_d184a1c825c287a752a8a8fc677d90a2 = L.marker(
+                [-22.3237773, -49.0621548],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_e8ad376de3bff59a78ea9ca14f37900d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a16c483094117638cd6dc70efb727cda = $(`<div id="html_a16c483094117638cd6dc70efb727cda" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA HERMÍNIO PINTO COM A RUA RODRIGO ROMEIRO.</b><br>Distância: 2.48 km<br>Salário: 2848.92</div>`)[0];
+                popup_e8ad376de3bff59a78ea9ca14f37900d.setContent(html_a16c483094117638cd6dc70efb727cda);
+            
+        
+
+        marker_d184a1c825c287a752a8a8fc677d90a2.bindPopup(popup_e8ad376de3bff59a78ea9ca14f37900d)
+        ;
+
+        
+    
+    
+            var marker_7d67069617e6bee36bb9a2ef31bb2f03 = L.marker(
+                [-22.3359262, -49.1080332],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_6941d00bbf2b48bb3f0a390149879675 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b6644f8f3d1d90faff337cb6c41f817 = $(`<div id="html_9b6644f8f3d1d90faff337cb6c41f817" style="width: 100.0%; height: 100.0%;"><b>RUA D'ANNUNCIO CAMMAROSANO COM A RUA MEM DE SÁ.</b><br>Distância: 6.50 km<br>Salário: 2813.84</div>`)[0];
+                popup_6941d00bbf2b48bb3f0a390149879675.setContent(html_9b6644f8f3d1d90faff337cb6c41f817);
+            
+        
+
+        marker_7d67069617e6bee36bb9a2ef31bb2f03.bindPopup(popup_6941d00bbf2b48bb3f0a390149879675)
+        ;
+
+        
+    
+    
+            var marker_9bd329ce3428960c01b6d3350449e07d = L.marker(
+                [-22.3519483, -49.0588612],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_b83e8fe826c7809fe03206da40187345 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a1769bdc1d5e039965b00ce3589021d = $(`<div id="html_9a1769bdc1d5e039965b00ce3589021d" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA AVIADOR EDU CHAVES COM A RUA AVIADOR JOSÉ DE BARROS SILVA.</b><br>Distância: 1.98 km<br>Salário: 2553.05</div>`)[0];
+                popup_b83e8fe826c7809fe03206da40187345.setContent(html_9a1769bdc1d5e039965b00ce3589021d);
+            
+        
+
+        marker_9bd329ce3428960c01b6d3350449e07d.bindPopup(popup_b83e8fe826c7809fe03206da40187345)
+        ;
+
+        
+    
+    
+            var marker_d278b1963821f3ed6b59c7a47d205ab5 = L.marker(
+                [-22.3189735, -49.0556085],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_6f79fd65831f428d4bcde9e84c95cfbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b9c31a6d5aa01acc14183d39ed43068 = $(`<div id="html_0b9c31a6d5aa01acc14183d39ed43068" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA AURELIANO CARDIA COM A RUA SERGIPE.</b><br>Distância: 2.52 km<br>Salário: 2551.37</div>`)[0];
+                popup_6f79fd65831f428d4bcde9e84c95cfbe.setContent(html_0b9c31a6d5aa01acc14183d39ed43068);
+            
+        
+
+        marker_d278b1963821f3ed6b59c7a47d205ab5.bindPopup(popup_6f79fd65831f428d4bcde9e84c95cfbe)
+        ;
+
+        
+    
+    
+            var marker_5267e2ce35dfe259d172c760d527c24e = L.marker(
+                [-22.3189735, -49.0556085],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_915930abb7e73ae6d9e1d2727edb7a16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32e3214cee2f6f30fc884fc7e40e0385 = $(`<div id="html_32e3214cee2f6f30fc884fc7e40e0385" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA ALAMEDA OCTÁVIO PINHEIRO BRIZOLLA - RUA  ANTÔNIO GARCIA.</b><br>Distância: 2.52 km<br>Salário: 2528.57</div>`)[0];
+                popup_915930abb7e73ae6d9e1d2727edb7a16.setContent(html_32e3214cee2f6f30fc884fc7e40e0385);
+            
+        
+
+        marker_5267e2ce35dfe259d172c760d527c24e.bindPopup(popup_915930abb7e73ae6d9e1d2727edb7a16)
+        ;
+
+        
+    
+    
+            var marker_884239ca3b5f35bd12ba902ee758891f = L.marker(
+                [-22.3214181, -49.1272217],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_43ba6f9022f164722cc7f0964c578e0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82305b2ddb551b3037c1e3fe6c713ba0 = $(`<div id="html_82305b2ddb551b3037c1e3fe6c713ba0" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DO CÓRREGO DO CASTELO COM RODOVIA BAURU / MARÍLIA.</b><br>Distância: 8.70 km<br>Salário: 2495.03</div>`)[0];
+                popup_43ba6f9022f164722cc7f0964c578e0f.setContent(html_82305b2ddb551b3037c1e3fe6c713ba0);
+            
+        
+
+        marker_884239ca3b5f35bd12ba902ee758891f.bindPopup(popup_43ba6f9022f164722cc7f0964c578e0f)
+        ;
+
+        
+    
+    
+            var marker_10fac6b27ae4a682443579b3d4ea0da1 = L.marker(
+                [-22.3274801, -49.0622327],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_e1258d3ca583ccb8f91c7f984ff7bf86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9366e989088dd0823d772151e0e950ba = $(`<div id="html_9366e989088dd0823d772151e0e950ba" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA JOAQUIM FIDELIS COM A RUA JOAQUIM DA SILVA MARTHA.</b><br>Distância: 2.21 km<br>Salário: 2381.82</div>`)[0];
+                popup_e1258d3ca583ccb8f91c7f984ff7bf86.setContent(html_9366e989088dd0823d772151e0e950ba);
+            
+        
+
+        marker_10fac6b27ae4a682443579b3d4ea0da1.bindPopup(popup_e1258d3ca583ccb8f91c7f984ff7bf86)
+        ;
+
+        
+    
+    
+            var marker_5efe0d59ce602a1562c61c22e5e67c0d = L.marker(
+                [-22.3519483, -49.0588612],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_23b1876814a5724c28f71c36a1bd8d7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb647d5594a3b5438580d1fe030d2470 = $(`<div id="html_bb647d5594a3b5438580d1fe030d2470" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA AVIADOR EDU CHAVES COM A RUA DOUTOR ARMANDO PIERONI.</b><br>Distância: 1.98 km<br>Salário: 2380.82</div>`)[0];
+                popup_23b1876814a5724c28f71c36a1bd8d7f.setContent(html_bb647d5594a3b5438580d1fe030d2470);
+            
+        
+
+        marker_5efe0d59ce602a1562c61c22e5e67c0d.bindPopup(popup_23b1876814a5724c28f71c36a1bd8d7f)
+        ;
+
+        
+    
+    
+            var marker_b1edf7b72a7c06c5d164cb3983900403 = L.marker(
+                [-22.3221116, -49.04319],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_0964c8f2a0f676eb6a78ce842ed3776c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0f5e0852a625f9b0aa5494239799472 = $(`<div id="html_a0f5e0852a625f9b0aa5494239799472" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA ANTÔNIO CINTRA JÚNIOR COM A RUA MADRE CLÉLIA.</b><br>Distância: 1.94 km<br>Salário: 2259.99</div>`)[0];
+                popup_0964c8f2a0f676eb6a78ce842ed3776c.setContent(html_a0f5e0852a625f9b0aa5494239799472);
+            
+        
+
+        marker_b1edf7b72a7c06c5d164cb3983900403.bindPopup(popup_0964c8f2a0f676eb6a78ce842ed3776c)
+        ;
+
+        
+    
+    
+            var marker_94a30c7b55003da1f838ea0618311089 = L.marker(
+                [-22.323902, -49.1042892],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_7b3f4f830e352e33152ffead8d6ba52f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa5462962e49bce642b5545c8f5c0b0c = $(`<div id="html_fa5462962e49bce642b5545c8f5c0b0c" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA HALIM AIDAR COM A RUA WENCESLAU BRAZ.</b><br>Distância: 6.34 km<br>Salário: 2177.00</div>`)[0];
+                popup_7b3f4f830e352e33152ffead8d6ba52f.setContent(html_fa5462962e49bce642b5545c8f5c0b0c);
+            
+        
+
+        marker_94a30c7b55003da1f838ea0618311089.bindPopup(popup_7b3f4f830e352e33152ffead8d6ba52f)
+        ;
+
+        
+    
+    
+            var marker_82cd19d25308de3f5e77ea8eccbd97bf = L.marker(
+                [-22.3344836, -49.1063913],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_967cc1532463fdcede9e5cdd8f243134 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55545ad639d36e55927902b32ba91413 = $(`<div id="html_55545ad639d36e55927902b32ba91413" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA ANTÔNIO REQUENA NEVADO COM A RUA BRAZ DI FLORA.</b><br>Distância: 6.34 km<br>Salário: 2118.81</div>`)[0];
+                popup_967cc1532463fdcede9e5cdd8f243134.setContent(html_55545ad639d36e55927902b32ba91413);
+            
+        
+
+        marker_82cd19d25308de3f5e77ea8eccbd97bf.bindPopup(popup_967cc1532463fdcede9e5cdd8f243134)
+        ;
+
+        
+    
+    
+            var marker_91eaa64a028bb5a3fe1c9bd36b583634 = L.marker(
+                [-22.3282532, -49.1000493],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_f248b031a37b023a1f10ca5134e13f13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11b40ddbd0118091650d744b1f0ac0c2 = $(`<div id="html_11b40ddbd0118091650d744b1f0ac0c2" style="width: 100.0%; height: 100.0%;"><b>RUA DOUTOR SÍLVIO LUIZ DA COSTA COM A AVENIDA ELIAS MIGUEL MALUF.</b><br>Distância: 5.80 km<br>Salário: 2066.85</div>`)[0];
+                popup_f248b031a37b023a1f10ca5134e13f13.setContent(html_11b40ddbd0118091650d744b1f0ac0c2);
+            
+        
+
+        marker_91eaa64a028bb5a3fe1c9bd36b583634.bindPopup(popup_f248b031a37b023a1f10ca5134e13f13)
+        ;
+
+        
+    
+    
+            var marker_8106dddea7d59f4ac344c8060154edbe = L.marker(
+                [-22.3272071, -49.0696333],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_dd982ec9647a44211e018f8a3e9a9d42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_382b08d9964c59953d19f4ecc953ec76 = $(`<div id="html_382b08d9964c59953d19f4ecc953ec76" style="width: 100.0%; height: 100.0%;"><b> RUA GUSTAVO MACIEL COM A RUA GENERAL MARCONDES SALGADO.</b><br>Distância: 2.87 km<br>Salário: 2059.74</div>`)[0];
+                popup_dd982ec9647a44211e018f8a3e9a9d42.setContent(html_382b08d9964c59953d19f4ecc953ec76);
+            
+        
+
+        marker_8106dddea7d59f4ac344c8060154edbe.bindPopup(popup_dd982ec9647a44211e018f8a3e9a9d42)
+        ;
+
+        
+    
+    
+            var marker_3b43856fc41d80cbec34d9c1658c255d = L.marker(
+                [-22.3274198, -49.0463734],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_470289dcc49cc6b98dcaecdd830e99c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_666988a8fcd2bf8ac6b1bb1d233dee26 = $(`<div id="html_666988a8fcd2bf8ac6b1bb1d233dee26" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA DOUTOR JOSÉ RANIERI COM A AVENIDA RODRIGUES ALVES.</b><br>Distância: 1.35 km<br>Salário: 2051.89</div>`)[0];
+                popup_470289dcc49cc6b98dcaecdd830e99c6.setContent(html_666988a8fcd2bf8ac6b1bb1d233dee26);
+            
+        
+
+        marker_3b43856fc41d80cbec34d9c1658c255d.bindPopup(popup_470289dcc49cc6b98dcaecdd830e99c6)
+        ;
+
+        
+    
+    
+            var marker_cd85d5978fc5f020102ddd0d4a0b9931 = L.marker(
+                [-22.2991821, -49.0620225],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_d26636610738f758aa9d9ebc7c16d74f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44c9e7fd285a42e3a5ce355109304dd9 = $(`<div id="html_44c9e7fd285a42e3a5ce355109304dd9" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA RODOVIA MARECHAL RONDON SP-300 COM O PROLONGAMENTO DA RUA WALTER SPOTTI.</b><br>Distância: 4.79 km<br>Salário: 2032.52</div>`)[0];
+                popup_d26636610738f758aa9d9ebc7c16d74f.setContent(html_44c9e7fd285a42e3a5ce355109304dd9);
+            
+        
+
+        marker_cd85d5978fc5f020102ddd0d4a0b9931.bindPopup(popup_d26636610738f758aa9d9ebc7c16d74f)
+        ;
+
+        
+    
+    
+            var marker_e83abe2fd8744fb8a77af4678d553e77 = L.marker(
+                [-22.3359262, -49.1080332],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_c744c6d86335fe3e89b27d6e0a2a107a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b9b9437fe8243ce62be97c72c794e0d = $(`<div id="html_1b9b9437fe8243ce62be97c72c794e0d" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA D'ANNUNCIO CAMMAROSANO COM A RUA CÉSAR RODRIGUES FERREIRA.</b><br>Distância: 6.50 km<br>Salário: 2020.43</div>`)[0];
+                popup_c744c6d86335fe3e89b27d6e0a2a107a.setContent(html_1b9b9437fe8243ce62be97c72c794e0d);
+            
+        
+
+        marker_e83abe2fd8744fb8a77af4678d553e77.bindPopup(popup_c744c6d86335fe3e89b27d6e0a2a107a)
+        ;
+
+        
+    
+    
+            var marker_5f3effb6bb8e8937746599c1f88c8018 = L.marker(
+                [-22.319765, -49.0092803],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_8727df52f9722972e2a2205355a09ec8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e58ce8a13d369ce97ca595ff2cdbe96e = $(`<div id="html_e58ce8a13d369ce97ca595ff2cdbe96e" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA NAOKI SHINOHARA COM A RUA NATAL FORNAZARI.</b><br>Distância: 4.29 km<br>Salário: 2016.67</div>`)[0];
+                popup_8727df52f9722972e2a2205355a09ec8.setContent(html_e58ce8a13d369ce97ca595ff2cdbe96e);
+            
+        
+
+        marker_5f3effb6bb8e8937746599c1f88c8018.bindPopup(popup_8727df52f9722972e2a2205355a09ec8)
+        ;
+
+        
+    
+    
+            var marker_d0bed992201878f4efc8373733349565 = L.marker(
+                [-22.3242806, -49.0959802],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_93f7abcdd5cba834dcc1772e4a0d568a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78cc98cf2e4b08efafb546af3bbf83b5 = $(`<div id="html_78cc98cf2e4b08efafb546af3bbf83b5" style="width: 100.0%; height: 100.0%;"><b>RUA BENEDITO ELEUTÉRIO COM A RUA PROFESSOR CARLOS GOMES PEIXOTO DE MELLO.</b><br>Distância: 5.51 km<br>Salário: 1973.76</div>`)[0];
+                popup_93f7abcdd5cba834dcc1772e4a0d568a.setContent(html_78cc98cf2e4b08efafb546af3bbf83b5);
+            
+        
+
+        marker_d0bed992201878f4efc8373733349565.bindPopup(popup_93f7abcdd5cba834dcc1772e4a0d568a)
+        ;
+
+        
+    
+    
+            var marker_d39eb37a32d99c2472ef35043bd7fdf7 = L.marker(
+                [-22.3309172, -49.0993496],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_db8216f699bf3ac9164186f49e1f491d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b090120cbd10ae39bc4953e4ce21b3b4 = $(`<div id="html_b090120cbd10ae39bc4953e4ce21b3b4" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA BRAZ DI FLORA COM A RUA ANTÔNIO PONCE PAZ.</b><br>Distância: 5.67 km<br>Salário: 1941.29</div>`)[0];
+                popup_db8216f699bf3ac9164186f49e1f491d.setContent(html_b090120cbd10ae39bc4953e4ce21b3b4);
+            
+        
+
+        marker_d39eb37a32d99c2472ef35043bd7fdf7.bindPopup(popup_db8216f699bf3ac9164186f49e1f491d)
+        ;
+
+        
+    
+    
+            var marker_b4cec1aeb01bd849aaadc3360c47d24d = L.marker(
+                [-22.338489, -49.1040989],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_a162c4ff830f110da5490f6ac9c33b2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e03705e465796a34dd7479ba201b0b40 = $(`<div id="html_e03705e465796a34dd7479ba201b0b40" style="width: 100.0%; height: 100.0%;"><b>RUA ÂNGELO DE MORAES COM A RUA PASCHOAL ABIUZZI.</b><br>Distância: 6.08 km<br>Salário: 1936.28</div>`)[0];
+                popup_a162c4ff830f110da5490f6ac9c33b2b.setContent(html_e03705e465796a34dd7479ba201b0b40);
+            
+        
+
+        marker_b4cec1aeb01bd849aaadc3360c47d24d.bindPopup(popup_a162c4ff830f110da5490f6ac9c33b2b)
+        ;
+
+        
+    
+    
+            var marker_151859850581fbfbb4014f38e195d5ba = L.marker(
+                [-22.3192627, -49.090072],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_9372a2e1858286d55353b35122e93f7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7c0614b41cbbd6a93ac1d7356148d1e = $(`<div id="html_b7c0614b41cbbd6a93ac1d7356148d1e" style="width: 100.0%; height: 100.0%;"><b>RUA CAETANO CARIANI COM A RUA SILVA JARDIM.</b><br>Distância: 5.15 km<br>Salário: 1795.43</div>`)[0];
+                popup_9372a2e1858286d55353b35122e93f7c.setContent(html_b7c0614b41cbbd6a93ac1d7356148d1e);
+            
+        
+
+        marker_151859850581fbfbb4014f38e195d5ba.bindPopup(popup_9372a2e1858286d55353b35122e93f7c)
+        ;
+
+        
+    
+    
+            var marker_eb32bf2d80992e5e3e0947cc43f727d7 = L.marker(
+                [-22.3242806, -49.0959802],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_901c374ee30ec701b0100197eb117671 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10d26bee2a68dccf85885527eeaef33f = $(`<div id="html_10d26bee2a68dccf85885527eeaef33f" style="width: 100.0%; height: 100.0%;"><b> RUA BENEDITO ELEUTÉRIO COM A RUA ALBUQUERQUE LINS.</b><br>Distância: 5.51 km<br>Salário: 1791.71</div>`)[0];
+                popup_901c374ee30ec701b0100197eb117671.setContent(html_10d26bee2a68dccf85885527eeaef33f);
+            
+        
+
+        marker_eb32bf2d80992e5e3e0947cc43f727d7.bindPopup(popup_901c374ee30ec701b0100197eb117671)
+        ;
+
+        
+    
+    
+            var marker_ef277885fff6cb5417743e86c691a994 = L.marker(
+                [-22.3023653, -49.074366],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_034b29fbed796d6dd813a6a436e13c72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e14c17e722ae6ecf95fc75f2632c3a9 = $(`<div id="html_0e14c17e722ae6ecf95fc75f2632c3a9" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA RUA JOSÉ FRANCISCO AUGUSTO COM A RUA OITO.</b><br>Distância: 5.10 km<br>Salário: 1778.10</div>`)[0];
+                popup_034b29fbed796d6dd813a6a436e13c72.setContent(html_0e14c17e722ae6ecf95fc75f2632c3a9);
+            
+        
+
+        marker_ef277885fff6cb5417743e86c691a994.bindPopup(popup_034b29fbed796d6dd813a6a436e13c72)
+        ;
+
+        
+    
+    
+            var marker_1f74e539f71084f7c0cc4ecc4dddae88 = L.marker(
+                [-22.3050751, -49.0917939],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_a514180e42474213434822fb03f61453 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49f6f5fd311d745ac46ce607692769a8 = $(`<div id="html_49f6f5fd311d745ac46ce607692769a8" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA JOAQUIM RADICOPA COM A VIELA.</b><br>Distância: 6.14 km<br>Salário: 1762.46</div>`)[0];
+                popup_a514180e42474213434822fb03f61453.setContent(html_49f6f5fd311d745ac46ce607692769a8);
+            
+        
+
+        marker_1f74e539f71084f7c0cc4ecc4dddae88.bindPopup(popup_a514180e42474213434822fb03f61453)
+        ;
+
+        
+    
+    
+            var marker_9183ab02e0bc3db8ee6fe50670e629f7 = L.marker(
+                [-22.3280447, -49.045987],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_dd3ba46d2db3e52a12b3a15fd77af9e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_884375510e49a08fdc48957cf1b4cb97 = $(`<div id="html_884375510e49a08fdc48957cf1b4cb97" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA GALVÃO DE CASTRO COM A AVENIDA DUQUE DE CAXIAS.</b><br>Distância: 1.27 km<br>Salário: 1762.31</div>`)[0];
+                popup_dd3ba46d2db3e52a12b3a15fd77af9e0.setContent(html_884375510e49a08fdc48957cf1b4cb97);
+            
+        
+
+        marker_9183ab02e0bc3db8ee6fe50670e629f7.bindPopup(popup_dd3ba46d2db3e52a12b3a15fd77af9e0)
+        ;
+
+        
+    
+    
+            var marker_4031c11179a3c96a71e1e60207d8054e = L.marker(
+                [-22.3313554, -49.1011649],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_9430628fff4cbc1949f78342085f4213 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cefba2e83c0ec1e96427133e5a167df = $(`<div id="html_9cefba2e83c0ec1e96427133e5a167df" style="width: 100.0%; height: 100.0%;"><b>RUA SILVÉRIO SPINELLI COM A RUA ANTÔNIO PEREIRA.</b><br>Distância: 5.85 km<br>Salário: 1748.59</div>`)[0];
+                popup_9430628fff4cbc1949f78342085f4213.setContent(html_9cefba2e83c0ec1e96427133e5a167df);
+            
+        
+
+        marker_4031c11179a3c96a71e1e60207d8054e.bindPopup(popup_9430628fff4cbc1949f78342085f4213)
+        ;
+
+        
+    
+    
+            var marker_205f6f71f926404b6b5e2d4f4be86994 = L.marker(
+                [-22.3079855, -49.0969348],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_c57c98b9be851e799d15278d100f3638 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05eaddceedcdbf49a738284b58fd6e9b = $(`<div id="html_05eaddceedcdbf49a738284b58fd6e9b" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA ALTO JURUÁ COM A RUA JOSÉ BONIFÁCIO.</b><br>Distância: 6.38 km<br>Salário: 1743.19</div>`)[0];
+                popup_c57c98b9be851e799d15278d100f3638.setContent(html_05eaddceedcdbf49a738284b58fd6e9b);
+            
+        
+
+        marker_205f6f71f926404b6b5e2d4f4be86994.bindPopup(popup_c57c98b9be851e799d15278d100f3638)
+        ;
+
+        
+    
+    
+            var marker_55ca6f6e4701e948fe7e8c9c09e4e41e = L.marker(
+                [-22.3075425, -49.0503404],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_6340ecd62f5f934a7cfa7a906d0ad027 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3c0ebfc9565c22751e1338cd7ea5f9d = $(`<div id="html_b3c0ebfc9565c22751e1338cd7ea5f9d" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA WALTER BERALDO COM A AVENIDA ROSA MALANDRINO MONDELLI.</b><br>Distância: 3.58 km<br>Salário: 1722.02</div>`)[0];
+                popup_6340ecd62f5f934a7cfa7a906d0ad027.setContent(html_b3c0ebfc9565c22751e1338cd7ea5f9d);
+            
+        
+
+        marker_55ca6f6e4701e948fe7e8c9c09e4e41e.bindPopup(popup_6340ecd62f5f934a7cfa7a906d0ad027)
+        ;
+
+        
+    
+    
+            var marker_6473ea0182c4166f92a4253ffb9d1260 = L.marker(
+                [-22.3079855, -49.0969348],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_03b4423cb703c29886f4f8a8fc2aaafd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b93ed9d25e96a60cdf895da90da4541d = $(`<div id="html_b93ed9d25e96a60cdf895da90da4541d" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA ALTO JURUÁ COM A RUA SANTOS DUMONT.</b><br>Distância: 6.38 km<br>Salário: 1691.74</div>`)[0];
+                popup_03b4423cb703c29886f4f8a8fc2aaafd.setContent(html_b93ed9d25e96a60cdf895da90da4541d);
+            
+        
+
+        marker_6473ea0182c4166f92a4253ffb9d1260.bindPopup(popup_03b4423cb703c29886f4f8a8fc2aaafd)
+        ;
+
+        
+    
+    
+            var marker_09b5f2e793a986e7c7571aa1ddcd0d6c = L.marker(
+                [-22.3308794, -49.0813202],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_e4636a825b2b821cb1e4092b13dd5638 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89bb7575748d0b59ee04b5a173c805d5 = $(`<div id="html_89bb7575748d0b59ee04b5a173c805d5" style="width: 100.0%; height: 100.0%;"><b> RUA CÉLIO DAIBEM COM A RUA JOSÉ AIELLO.</b><br>Distância: 3.85 km<br>Salário: 1674.01</div>`)[0];
+                popup_e4636a825b2b821cb1e4092b13dd5638.setContent(html_89bb7575748d0b59ee04b5a173c805d5);
+            
+        
+
+        marker_09b5f2e793a986e7c7571aa1ddcd0d6c.bindPopup(popup_e4636a825b2b821cb1e4092b13dd5638)
+        ;
+
+        
+    
+    
+            var marker_0db1d7ba67c6a4d88c2cece9c1926a2c = L.marker(
+                [-22.319765, -49.0092803],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_d0c184ace8bfcaa199c8221ae0e8ab0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5912b2de946898b82d6f9ac7fbde3a18 = $(`<div id="html_5912b2de946898b82d6f9ac7fbde3a18" style="width: 100.0%; height: 100.0%;"><b>LAR E ESCOLA RAFAEL MAURICIO - LOCALIZADO NA RODOVIA BAURU-IACANGA KM 345.</b><br>Distância: 4.29 km<br>Salário: 1670.82</div>`)[0];
+                popup_d0c184ace8bfcaa199c8221ae0e8ab0d.setContent(html_5912b2de946898b82d6f9ac7fbde3a18);
+            
+        
+
+        marker_0db1d7ba67c6a4d88c2cece9c1926a2c.bindPopup(popup_d0c184ace8bfcaa199c8221ae0e8ab0d)
+        ;
+
+        
+    
+    
+            var marker_268a8d8b5bf52edfe3f1566e705a6e53 = L.marker(
+                [-22.3094515, -49.0919656],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_c69a5397a68c5e636dd9052eb2098284 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f3087cf71295f57d4eab6407d3aa985 = $(`<div id="html_0f3087cf71295f57d4eab6407d3aa985" style="width: 100.0%; height: 100.0%;"><b>RUA ANICETO ABELHA COM A RUA SILVA JARDIM.</b><br>Distância: 5.87 km<br>Salário: 1656.59</div>`)[0];
+                popup_c69a5397a68c5e636dd9052eb2098284.setContent(html_0f3087cf71295f57d4eab6407d3aa985);
+            
+        
+
+        marker_268a8d8b5bf52edfe3f1566e705a6e53.bindPopup(popup_c69a5397a68c5e636dd9052eb2098284)
+        ;
+
+        
+    
+    
+            var marker_0b5c014a1d7e76d7c2205a4f017e8432 = L.marker(
+                [-22.3348181, -49.1073578],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_33c59c40a576c54361e264f3f515c230 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c345cf3f5f830267f0e4162761ff45d2 = $(`<div id="html_c345cf3f5f830267f0e4162761ff45d2" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA ALEXANDRE FÁVERO COM A RUA ANTONIO PEREIRA.</b><br>Distância: 6.44 km<br>Salário: 1645.48</div>`)[0];
+                popup_33c59c40a576c54361e264f3f515c230.setContent(html_c345cf3f5f830267f0e4162761ff45d2);
+            
+        
+
+        marker_0b5c014a1d7e76d7c2205a4f017e8432.bindPopup(popup_33c59c40a576c54361e264f3f515c230)
+        ;
+
+        
+    
+    
+            var marker_eb60e2fa3ee61967df0eaede9713d8bd = L.marker(
+                [-22.319765, -49.0092803],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_777120878e6b2611ec379fad5ac4d949 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d57fb1e66786f45c7150de1cc38d8b04 = $(`<div id="html_d57fb1e66786f45c7150de1cc38d8b04" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RODOVIA MARECHAL RONDON SP-300 COM CÓRREGO DA GABIROBA.</b><br>Distância: 4.29 km<br>Salário: 1640.31</div>`)[0];
+                popup_777120878e6b2611ec379fad5ac4d949.setContent(html_d57fb1e66786f45c7150de1cc38d8b04);
+            
+        
+
+        marker_eb60e2fa3ee61967df0eaede9713d8bd.bindPopup(popup_777120878e6b2611ec379fad5ac4d949)
+        ;
+
+        
+    
+    
+            var marker_97e06d8d0be893554a3eb0a3abf1a1a8 = L.marker(
+                [-22.2991821, -49.0620225],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_9527d84ea8f65224b1446acc68e9e3c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c494f0336cf307dbae549a130c24ccf = $(`<div id="html_4c494f0336cf307dbae549a130c24ccf" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA RUA CORONEL ANTÔNIO DE ÁVILA REBOUÇAS COM A RUA FELÍCIO ATALA.</b><br>Distância: 4.79 km<br>Salário: 1585.03</div>`)[0];
+                popup_9527d84ea8f65224b1446acc68e9e3c0.setContent(html_4c494f0336cf307dbae549a130c24ccf);
+            
+        
+
+        marker_97e06d8d0be893554a3eb0a3abf1a1a8.bindPopup(popup_9527d84ea8f65224b1446acc68e9e3c0)
+        ;
+
+        
+    
+    
+            var marker_ca508449ecaf7c232a49f9d538abee43 = L.marker(
+                [-22.3526647, -49.0967504],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_6a998bcd27423c2b060552d2a52298ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1992ed5b31090e103b4b395d3eecbd07 = $(`<div id="html_1992ed5b31090e103b4b395d3eecbd07" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA JOSÉ HENRIQUE FERRAZ COM A RUA EQUADOR.</b><br>Distância: 5.52 km<br>Salário: 1576.53</div>`)[0];
+                popup_6a998bcd27423c2b060552d2a52298ed.setContent(html_1992ed5b31090e103b4b395d3eecbd07);
+            
+        
+
+        marker_ca508449ecaf7c232a49f9d538abee43.bindPopup(popup_6a998bcd27423c2b060552d2a52298ed)
+        ;
+
+        
+    
+    
+            var marker_75a4cdb47e5663242ac6e37dda6b547e = L.marker(
+                [-22.2941903, -49.0739153],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_7676cc630c263a241dbaab10aced19e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa58e543ad1cfdeeaf4a856d7eeab7a7 = $(`<div id="html_aa58e543ad1cfdeeaf4a856d7eeab7a7" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA PLÍNIO CAMARGO COM A DIVISA DA RODOVIA MARECHAL RONDON SP-300.</b><br>Distância: 5.83 km<br>Salário: 1555.08</div>`)[0];
+                popup_7676cc630c263a241dbaab10aced19e7.setContent(html_aa58e543ad1cfdeeaf4a856d7eeab7a7);
+            
+        
+
+        marker_75a4cdb47e5663242ac6e37dda6b547e.bindPopup(popup_7676cc630c263a241dbaab10aced19e7)
+        ;
+
+        
+    
+    
+            var marker_c225cd2ea3c59be78d5df648e1e2e891 = L.marker(
+                [-22.3083171, -49.0897515],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_a4e6f495545388e3b8b193183eb6351c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87f263d45ca8715e2c750c9a478ae2d8 = $(`<div id="html_87f263d45ca8715e2c750c9a478ae2d8" style="width: 100.0%; height: 100.0%;"><b>RUA FRANCISCO LEMOS ALMEIDA COM A RUA DOUTOR ASSIR REZE.</b><br>Distância: 5.75 km<br>Salário: 1550.93</div>`)[0];
+                popup_a4e6f495545388e3b8b193183eb6351c.setContent(html_87f263d45ca8715e2c750c9a478ae2d8);
+            
+        
+
+        marker_c225cd2ea3c59be78d5df648e1e2e891.bindPopup(popup_a4e6f495545388e3b8b193183eb6351c)
+        ;
+
+        
+    
+    
+            var marker_b8192b8ba9cb6993ad78b86da076bca5 = L.marker(
+                [-22.319765, -49.0092803],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_3417acf1229f53a2075d22e47756201f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cd9128fac19f77ec4e94f220948bedb = $(`<div id="html_1cd9128fac19f77ec4e94f220948bedb" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA DIVISA DO HORTO FLORESTAL DA FEPASA COM CONTRAFORTE CÓRREGO VARGEM LIMPA.</b><br>Distância: 4.29 km<br>Salário: 1544.87</div>`)[0];
+                popup_3417acf1229f53a2075d22e47756201f.setContent(html_1cd9128fac19f77ec4e94f220948bedb);
+            
+        
+
+        marker_b8192b8ba9cb6993ad78b86da076bca5.bindPopup(popup_3417acf1229f53a2075d22e47756201f)
+        ;
+
+        
+    
+    
+            var marker_909a205f626937d0bcd9e103566da060 = L.marker(
+                [-22.3226029, -49.0815765],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_50cb13dbbe6e609795d844908a6c5ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0246dc0b011e25b3b936abdfd2cce8e = $(`<div id="html_f0246dc0b011e25b3b936abdfd2cce8e" style="width: 100.0%; height: 100.0%;"><b> TRILHOS DA FERROBAN COM A RUA ANTÔNIO ZUIANI.</b><br>Distância: 4.20 km<br>Salário: 1527.12</div>`)[0];
+                popup_50cb13dbbe6e609795d844908a6c5ea3.setContent(html_f0246dc0b011e25b3b936abdfd2cce8e);
+            
+        
+
+        marker_909a205f626937d0bcd9e103566da060.bindPopup(popup_50cb13dbbe6e609795d844908a6c5ea3)
+        ;
+
+        
+    
+    
+            var marker_cdeaf7aa9da2929128c2daa67503182f = L.marker(
+                [-22.3289589, -49.1187057],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_be9efc67028da2ce5d00703819eced4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d21837bab94f8fe0ca02540f9f3f14f0 = $(`<div id="html_d21837bab94f8fe0ca02540f9f3f14f0" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA WALDEMAR GUIMARÃES FERREIRA COM A AVENIDA ELIAS MIGUEL MALUF.</b><br>Distância: 7.67 km<br>Salário: 1519.70</div>`)[0];
+                popup_be9efc67028da2ce5d00703819eced4f.setContent(html_d21837bab94f8fe0ca02540f9f3f14f0);
+            
+        
+
+        marker_cdeaf7aa9da2929128c2daa67503182f.bindPopup(popup_be9efc67028da2ce5d00703819eced4f)
+        ;
+
+        
+    
+    
+            var marker_45082242ae4c10221e61565cd0ac7339 = L.marker(
+                [-22.3014962, -49.0849118],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_3017e9e1288e3aa5946e5879153fda1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3b4e9d2d3d65c28f0977e08700a2c28 = $(`<div id="html_f3b4e9d2d3d65c28f0977e08700a2c28" style="width: 100.0%; height: 100.0%;"><b>RUA AGOSTINHO FORNETTI COM A RUA JOAQUIM RADICOPA.</b><br>Distância: 5.88 km<br>Salário: 1509.91</div>`)[0];
+                popup_3017e9e1288e3aa5946e5879153fda1f.setContent(html_f3b4e9d2d3d65c28f0977e08700a2c28);
+            
+        
+
+        marker_45082242ae4c10221e61565cd0ac7339.bindPopup(popup_3017e9e1288e3aa5946e5879153fda1f)
+        ;
+
+        
+    
+    
+            var marker_2b7dcfe3d493ecf522142e92e458d755 = L.marker(
+                [-22.3242806, -49.0959802],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_b75a4326b56b747209a9676633747c9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe0dec680d9060e1efe7ef5e83ef85f6 = $(`<div id="html_fe0dec680d9060e1efe7ef5e83ef85f6" style="width: 100.0%; height: 100.0%;"><b>RUA DOUTOR SÍLVIO LUIZ DA COSTA COM OS TRILHOS DA NOVOEST.</b><br>Distância: 5.51 km<br>Salário: 1501.36</div>`)[0];
+                popup_b75a4326b56b747209a9676633747c9f.setContent(html_fe0dec680d9060e1efe7ef5e83ef85f6);
+            
+        
+
+        marker_2b7dcfe3d493ecf522142e92e458d755.bindPopup(popup_b75a4326b56b747209a9676633747c9f)
+        ;
+
+        
+    
+    
+            var marker_e4892d753d170ec979b1d07e4fe568d8 = L.marker(
+                [-22.363777, -49.0909131],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_68ea5c97d6a11555473ea4be73fa6445 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e126f45c835f4d45d17b90412bb2f7d = $(`<div id="html_6e126f45c835f4d45d17b90412bb2f7d" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA DIVISA DA PROPRIEDADE DA FAMÍLIA SIMÕES (EXCLUSIVE) COM OS TRILHOS DA FERROBAN.</b><br>Distância: 5.43 km<br>Salário: 1501.00</div>`)[0];
+                popup_68ea5c97d6a11555473ea4be73fa6445.setContent(html_6e126f45c835f4d45d17b90412bb2f7d);
+            
+        
+
+        marker_e4892d753d170ec979b1d07e4fe568d8.bindPopup(popup_68ea5c97d6a11555473ea4be73fa6445)
+        ;
+
+        
+    
+    
+            var marker_37e7f6d25ff2d8bdad67e76f9d7cb222 = L.marker(
+                [-22.3236884, -49.0191863],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_3ef3890e88247da8f2e259b04dbd3169 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08c50ffdc3e70b9817ca133897826c1f = $(`<div id="html_08c50ffdc3e70b9817ca133897826c1f" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA JORGE SCHNEYDER FILHO COM O PROLONGAMENTO DA RUA LAZARO FERNANDES DE LIMA.</b><br>Distância: 3.19 km<br>Salário: 1494.22</div>`)[0];
+                popup_3ef3890e88247da8f2e259b04dbd3169.setContent(html_08c50ffdc3e70b9817ca133897826c1f);
+            
+        
+
+        marker_37e7f6d25ff2d8bdad67e76f9d7cb222.bindPopup(popup_3ef3890e88247da8f2e259b04dbd3169)
+        ;
+
+        
+    
+    
+            var marker_922ac253d243ac15927b3f96c9271e10 = L.marker(
+                [-22.3175538, -49.058333],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_c76ec65d283cf1f9381fff7ae8f1805a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2aa59af7d60b203f3fa57ccd68dd3bd7 = $(`<div id="html_2aa59af7d60b203f3fa57ccd68dd3bd7" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA CAPITÃO EDUARDO COUTINHO COM A RUA PRESIDENTE KENNEDY.</b><br>Distância: 2.79 km<br>Salário: 1489.75</div>`)[0];
+                popup_c76ec65d283cf1f9381fff7ae8f1805a.setContent(html_2aa59af7d60b203f3fa57ccd68dd3bd7);
+            
+        
+
+        marker_922ac253d243ac15927b3f96c9271e10.bindPopup(popup_c76ec65d283cf1f9381fff7ae8f1805a)
+        ;
+
+        
+    
+    
+            var marker_a3121c3c660aad67b2d384c4152d2208 = L.marker(
+                [-22.3104527, -49.0959294],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_4870060301a0e7268351f98feb3ff29e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ced2f17d1469dbf04902cca466ef45db = $(`<div id="html_ced2f17d1469dbf04902cca466ef45db" style="width: 100.0%; height: 100.0%;"><b>RUA JUSAKU MATSUMOTO COM A RUA MANOEL F. GRILLO.</b><br>Distância: 6.15 km<br>Salário: 1482.57</div>`)[0];
+                popup_4870060301a0e7268351f98feb3ff29e.setContent(html_ced2f17d1469dbf04902cca466ef45db);
+            
+        
+
+        marker_a3121c3c660aad67b2d384c4152d2208.bindPopup(popup_4870060301a0e7268351f98feb3ff29e)
+        ;
+
+        
+    
+    
+            var marker_f577109d1e4ebc1ef7edcbca03259031 = L.marker(
+                [-22.3050634, -49.0771414],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_ea547ef1d9f2cbdefbf1db7355116669 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d410a55a3b684846ea6b36ae05b8ca64 = $(`<div id="html_d410a55a3b684846ea6b36ae05b8ca64" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA JOÃO IGNÁCIO SANTINHO COM A RUA JOAQUIM F. MELLO.</b><br>Distância: 5.05 km<br>Salário: 1445.21</div>`)[0];
+                popup_ea547ef1d9f2cbdefbf1db7355116669.setContent(html_d410a55a3b684846ea6b36ae05b8ca64);
+            
+        
+
+        marker_f577109d1e4ebc1ef7edcbca03259031.bindPopup(popup_ea547ef1d9f2cbdefbf1db7355116669)
+        ;
+
+        
+    
+    
+            var marker_d3a5ac405fa17d33c8ca3f11fb64332f = L.marker(
+                [-22.319765, -49.0092803],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_7b558e404355df3ba49b6c506abcb0cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8eb7fd565bb8cd9910654ca004787369 = $(`<div id="html_8eb7fd565bb8cd9910654ca004787369" style="width: 100.0%; height: 100.0%;"><b>ESTAÇAO ECOLÓGICA DE BAURU - CRUZAMENTO DE DIVISA DE SEBASTIÃO ALEIXO DA SILVA COM DIVISAS DE DOUTOR HILDEBRANDO T. DE CARVALHO.</b><br>Distância: 4.29 km<br>Salário: 1443.85</div>`)[0];
+                popup_7b558e404355df3ba49b6c506abcb0cd.setContent(html_8eb7fd565bb8cd9910654ca004787369);
+            
+        
+
+        marker_d3a5ac405fa17d33c8ca3f11fb64332f.bindPopup(popup_7b558e404355df3ba49b6c506abcb0cd)
+        ;
+
+        
+    
+    
+            var marker_6377aa70c09ae39f2af774535c24c1b2 = L.marker(
+                [-22.3104527, -49.0959294],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_9f73d7f33864d4819d2751b02cd13a34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd5efc1cf99cf212969a900a3acda3bb = $(`<div id="html_dd5efc1cf99cf212969a900a3acda3bb" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA JUSAKU MATSUMOTO COM A RUA SILVA JARDIM.</b><br>Distância: 6.15 km<br>Salário: 1442.23</div>`)[0];
+                popup_9f73d7f33864d4819d2751b02cd13a34.setContent(html_dd5efc1cf99cf212969a900a3acda3bb);
+            
+        
+
+        marker_6377aa70c09ae39f2af774535c24c1b2.bindPopup(popup_9f73d7f33864d4819d2751b02cd13a34)
+        ;
+
+        
+    
+    
+            var marker_d95a2c1fc0561c49e5a8bc9bdfb34c04 = L.marker(
+                [-22.3519483, -49.0588612],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_8947094068a9d9f26169e9372be7b34e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5696132b447f8e7d29f06211e83b59b1 = $(`<div id="html_5696132b447f8e7d29f06211e83b59b1" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DOS TRILHOS DA FERROBAN COM O PROLONGAMENTO DA RUA PAULINO RAPHAEL.</b><br>Distância: 1.98 km<br>Salário: 1396.04</div>`)[0];
+                popup_8947094068a9d9f26169e9372be7b34e.setContent(html_5696132b447f8e7d29f06211e83b59b1);
+            
+        
+
+        marker_d95a2c1fc0561c49e5a8bc9bdfb34c04.bindPopup(popup_8947094068a9d9f26169e9372be7b34e)
+        ;
+
+        
+    
+    
+            var marker_a408fd7fee17c92751f099e351aa57c9 = L.marker(
+                [-22.3568517, -49.1044561],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_720ead5450efa294004d26e757724285 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b680bd87e7bdad1c6e8b7cc1cf962ca = $(`<div id="html_4b680bd87e7bdad1c6e8b7cc1cf962ca" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA GIOCONDO TURINI COM A RUA CRISTÓVÃO SANCHES.</b><br>Distância: 6.41 km<br>Salário: 1391.30</div>`)[0];
+                popup_720ead5450efa294004d26e757724285.setContent(html_4b680bd87e7bdad1c6e8b7cc1cf962ca);
+            
+        
+
+        marker_a408fd7fee17c92751f099e351aa57c9.bindPopup(popup_720ead5450efa294004d26e757724285)
+        ;
+
+        
+    
+    
+            var marker_abb39f3eb5805de85bacfe2e42f906ba = L.marker(
+                [-22.3345612, -49.0343943],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_a1d104b4b4ce21631c1dbbfb88c307c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d098ef9b9aa1d30f73d301731f4d373 = $(`<div id="html_3d098ef9b9aa1d30f73d301731f4d373" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA BENEDITO RIBEIRO DOS SANTOS COM A RUA ADANTE GIGO.</b><br>Distância: 1.23 km<br>Salário: 1382.22</div>`)[0];
+                popup_a1d104b4b4ce21631c1dbbfb88c307c1.setContent(html_3d098ef9b9aa1d30f73d301731f4d373);
+            
+        
+
+        marker_abb39f3eb5805de85bacfe2e42f906ba.bindPopup(popup_a1d104b4b4ce21631c1dbbfb88c307c1)
+        ;
+
+        
+    
+    
+            var marker_7ec348b9c3c35a3eb9371b2f901aee4f = L.marker(
+                [-22.3373055, -49.1097069],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_6f3c9e52eecfae57948a8af73c4f7f21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae1c512382cb96eb3d06a6656e96f7fb = $(`<div id="html_ae1c512382cb96eb3d06a6656e96f7fb" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA EDILSON ALVES DE CARVALHO COM A RUA ITACURUCA.</b><br>Distância: 6.66 km<br>Salário: 1377.56</div>`)[0];
+                popup_6f3c9e52eecfae57948a8af73c4f7f21.setContent(html_ae1c512382cb96eb3d06a6656e96f7fb);
+            
+        
+
+        marker_7ec348b9c3c35a3eb9371b2f901aee4f.bindPopup(popup_6f3c9e52eecfae57948a8af73c4f7f21)
+        ;
+
+        
+    
+    
+            var marker_2680f1929d7d631a5d2041e200bffd90 = L.marker(
+                [-22.3085333, -49.0996309],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_ad719635a86a63a6750b23920a052dc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbbed1767e426f6a045005f7e1aefff8 = $(`<div id="html_fbbed1767e426f6a045005f7e1aefff8" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA ALAMEDA ATHENAS COM A ALAMEDA PLUTÃO.</b><br>Distância: 6.58 km<br>Salário: 1369.44</div>`)[0];
+                popup_ad719635a86a63a6750b23920a052dc6.setContent(html_fbbed1767e426f6a045005f7e1aefff8);
+            
+        
+
+        marker_2680f1929d7d631a5d2041e200bffd90.bindPopup(popup_ad719635a86a63a6750b23920a052dc6)
+        ;
+
+        
+    
+    
+            var marker_7a4407761d16c8551cae399c7e630356 = L.marker(
+                [-22.3189735, -49.0556085],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_bceabd4db035cd2eae5fe63d12c5f19f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b80028e44b2c4c45705b828011aa38a3 = $(`<div id="html_b80028e44b2c4c45705b828011aa38a3" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA VICENTE AIELOCOM MURO DE DIVISA DO RESIDENCIAL TIVOLI II.</b><br>Distância: 2.52 km<br>Salário: 1358.58</div>`)[0];
+                popup_bceabd4db035cd2eae5fe63d12c5f19f.setContent(html_b80028e44b2c4c45705b828011aa38a3);
+            
+        
+
+        marker_7a4407761d16c8551cae399c7e630356.bindPopup(popup_bceabd4db035cd2eae5fe63d12c5f19f)
+        ;
+
+        
+    
+    
+            var marker_fb17951ba49c0a6e8df059f89396e16d = L.marker(
+                [-22.3094515, -49.0919656],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_0bb2f9356ba62da95876d75163c011ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dd9a064a8306b3d81c2c480e259e66e = $(`<div id="html_6dd9a064a8306b3d81c2c480e259e66e" style="width: 100.0%; height: 100.0%;"><b>RUA ANICETO ABELHA COM A RUA ALTO JURUÁ.</b><br>Distância: 5.87 km<br>Salário: 1350.64</div>`)[0];
+                popup_0bb2f9356ba62da95876d75163c011ac.setContent(html_6dd9a064a8306b3d81c2c480e259e66e);
+            
+        
+
+        marker_fb17951ba49c0a6e8df059f89396e16d.bindPopup(popup_0bb2f9356ba62da95876d75163c011ac)
+        ;
+
+        
+    
+    
+            var marker_5bbb8cb7b862ff8d68deb52ed3fe3d47 = L.marker(
+                [-22.3078292, -49.0987962],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_22f5fa8f7642cae02ab0cab1a25cd6cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d60d9be99480bbd70edf2ea458a5cf5b = $(`<div id="html_d60d9be99480bbd70edf2ea458a5cf5b" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA FELIPE OLIVE COM A RUA ÂNGELO PASCOAL.</b><br>Distância: 6.55 km<br>Salário: 1341.71</div>`)[0];
+                popup_22f5fa8f7642cae02ab0cab1a25cd6cf.setContent(html_d60d9be99480bbd70edf2ea458a5cf5b);
+            
+        
+
+        marker_5bbb8cb7b862ff8d68deb52ed3fe3d47.bindPopup(popup_22f5fa8f7642cae02ab0cab1a25cd6cf)
+        ;
+
+        
+    
+    
+            var marker_f937b1bb501b6d82233b47d6bfaa7d9a = L.marker(
+                [-22.3047582, -49.0979956],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_095f50139a4fb7c13a4cc9c105b8e5a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3758bba9144e43fdbebccf065cc05fe9 = $(`<div id="html_3758bba9144e43fdbebccf065cc05fe9" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA FELIPE PARDO COM A RUA JOSÉ DARIO.</b><br>Distância: 6.67 km<br>Salário: 1334.00</div>`)[0];
+                popup_095f50139a4fb7c13a4cc9c105b8e5a2.setContent(html_3758bba9144e43fdbebccf065cc05fe9);
+            
+        
+
+        marker_f937b1bb501b6d82233b47d6bfaa7d9a.bindPopup(popup_095f50139a4fb7c13a4cc9c105b8e5a2)
+        ;
+
+        
+    
+    
+            var marker_ee952167dcd122d0f8a8325eb74e25ec = L.marker(
+                [-22.3083171, -49.0897515],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_d14e8e2a1c3bc312bebdec8513b2c963 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09fd02485f02be3f612c9703bce3490f = $(`<div id="html_09fd02485f02be3f612c9703bce3490f" style="width: 100.0%; height: 100.0%;"><b>RUA FRANCISCO LEMOS ALMEIDA COM A RUA CORONEL ALVES SEABRA.</b><br>Distância: 5.75 km<br>Salário: 1330.05</div>`)[0];
+                popup_d14e8e2a1c3bc312bebdec8513b2c963.setContent(html_09fd02485f02be3f612c9703bce3490f);
+            
+        
+
+        marker_ee952167dcd122d0f8a8325eb74e25ec.bindPopup(popup_d14e8e2a1c3bc312bebdec8513b2c963)
+        ;
+
+        
+    
+    
+            var marker_7826d8acfca58c46626766f1ed2d9234 = L.marker(
+                [-22.3163913, -49.0282538],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_0410700a0b4a85d64733c34544be3c83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1376ea9ce27a5eb70083f92f982067a2 = $(`<div id="html_1376ea9ce27a5eb70083f92f982067a2" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA SANTA FRANCISCA DE CHANTAL COM A VIA DE ACESSO ENGENHEIRO HORÁCIO FREDERICO PYLES.</b><br>Distância: 3.09 km<br>Salário: 1327.67</div>`)[0];
+                popup_0410700a0b4a85d64733c34544be3c83.setContent(html_1376ea9ce27a5eb70083f92f982067a2);
+            
+        
+
+        marker_7826d8acfca58c46626766f1ed2d9234.bindPopup(popup_0410700a0b4a85d64733c34544be3c83)
+        ;
+
+        
+    
+    
+            var marker_a4c34a9d0712861c3f3a7a922fd4fe73 = L.marker(
+                [-22.2991821, -49.0620225],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_fc29fcf476001a4976df73e94a434612 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c520b930bce1ea160e1955909e727ed8 = $(`<div id="html_c520b930bce1ea160e1955909e727ed8" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA RUA CORONEL ANTÔNIO DE ÁVILA REBOUÇAS COM A RUA MÁRIO BUENO SALLES.</b><br>Distância: 4.79 km<br>Salário: 1321.37</div>`)[0];
+                popup_fc29fcf476001a4976df73e94a434612.setContent(html_c520b930bce1ea160e1955909e727ed8);
+            
+        
+
+        marker_a4c34a9d0712861c3f3a7a922fd4fe73.bindPopup(popup_fc29fcf476001a4976df73e94a434612)
+        ;
+
+        
+    
+    
+            var marker_bac7f771a72c2404fb868cd46b762cf8 = L.marker(
+                [-22.3163913, -49.0282538],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_b92bc3f959d47190e0de388f83ffb295 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4c97600c51e3b70e45f146c9eee9d9f = $(`<div id="html_a4c97600c51e3b70e45f146c9eee9d9f" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA SANTA FRANCISCA DE CHANTAL COM A AVENIDA CRUZEIRO DO SUL.</b><br>Distância: 3.09 km<br>Salário: 1315.87</div>`)[0];
+                popup_b92bc3f959d47190e0de388f83ffb295.setContent(html_a4c97600c51e3b70e45f146c9eee9d9f);
+            
+        
+
+        marker_bac7f771a72c2404fb868cd46b762cf8.bindPopup(popup_b92bc3f959d47190e0de388f83ffb295)
+        ;
+
+        
+    
+    
+            var marker_b1cf22da1edeb94272c70a426bbef671 = L.marker(
+                [-22.3236568, -49.07827145],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_9635833ee63236fefceb12c3702e0daa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_206e5da084802292cdb7cae50be43aa2 = $(`<div id="html_206e5da084802292cdb7cae50be43aa2" style="width: 100.0%; height: 100.0%;"><b>PRACA MACHADO DE MELLO COM A RUA PRIMEIRO DE AGOSTO.</b><br>Distância: 3.84 km<br>Salário: 1311.43</div>`)[0];
+                popup_9635833ee63236fefceb12c3702e0daa.setContent(html_206e5da084802292cdb7cae50be43aa2);
+            
+        
+
+        marker_b1cf22da1edeb94272c70a426bbef671.bindPopup(popup_9635833ee63236fefceb12c3702e0daa)
+        ;
+
+        
+    
+    
+            var marker_079a34150ba36310e353818c67189266 = L.marker(
+                [-22.345143, -49.1025099],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_5b491185c053fb400292fff6c61248d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29f966423665f0b3c697d8bd4bc2f60a = $(`<div id="html_29f966423665f0b3c697d8bd4bc2f60a" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA VIDAL IGNÁCIO RODRIGUES COM A RUA MATHEUS TARZIA.</b><br>Distância: 5.95 km<br>Salário: 1310.64</div>`)[0];
+                popup_5b491185c053fb400292fff6c61248d6.setContent(html_29f966423665f0b3c697d8bd4bc2f60a);
+            
+        
+
+        marker_079a34150ba36310e353818c67189266.bindPopup(popup_5b491185c053fb400292fff6c61248d6)
+        ;
+
+        
+    
+    
+            var marker_c6e107c0c4d635138e11dac2c7ce3bb7 = L.marker(
+                [-22.3345612, -49.0343943],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_4a8bf0632167c3455c174aa72e6f195a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_184be2387807fb5bd33c7f21d78fe0d4 = $(`<div id="html_184be2387807fb5bd33c7f21d78fe0d4" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RODOVIA COMANDANTE JOÃO RIBEIRO DE BARROS SP-294 BAURU / MARÍLIA COM O PROLONGAMENTO DA RUA PEDRO ROSSI.</b><br>Distância: 1.23 km<br>Salário: 1292.49</div>`)[0];
+                popup_4a8bf0632167c3455c174aa72e6f195a.setContent(html_184be2387807fb5bd33c7f21d78fe0d4);
+            
+        
+
+        marker_c6e107c0c4d635138e11dac2c7ce3bb7.bindPopup(popup_4a8bf0632167c3455c174aa72e6f195a)
+        ;
+
+        
+    
+    
+            var marker_e76108ae0126e90620d50e3d3fb8fed2 = L.marker(
+                [-22.3042185, -49.0930719],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_483a2b28c30150fc7f6dc1f987449346 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e8ed710b37bb46782457fd017464936 = $(`<div id="html_2e8ed710b37bb46782457fd017464936" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA CAPITÃO MARIO ROSSI COM A RUA ÂNGELO COLACINO.</b><br>Distância: 6.30 km<br>Salário: 1287.26</div>`)[0];
+                popup_483a2b28c30150fc7f6dc1f987449346.setContent(html_2e8ed710b37bb46782457fd017464936);
+            
+        
+
+        marker_e76108ae0126e90620d50e3d3fb8fed2.bindPopup(popup_483a2b28c30150fc7f6dc1f987449346)
+        ;
+
+        
+    
+    
+            var marker_5e98f8755fac88e2a8c0de24f0bd03a3 = L.marker(
+                [-22.3067261, -49.0631951],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_54d6369a435923a29d666a6e758d7e93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d4a355162abcb73d6042d71ddbc6d35 = $(`<div id="html_3d4a355162abcb73d6042d71ddbc6d35" style="width: 100.0%; height: 100.0%;"><b>COMPREENDE EXCLUSIVAMENTE O CONDOMÍNIO RESIDENCIAL VILA INGLESA - SITUADO NA RUA MARCONDES SALGADO, 17/77.</b><br>Distância: 4.08 km<br>Salário: 1287.09</div>`)[0];
+                popup_54d6369a435923a29d666a6e758d7e93.setContent(html_3d4a355162abcb73d6042d71ddbc6d35);
+            
+        
+
+        marker_5e98f8755fac88e2a8c0de24f0bd03a3.bindPopup(popup_54d6369a435923a29d666a6e758d7e93)
+        ;
+
+        
+    
+    
+            var marker_5cfbcd7f50d52c0df4165d895ef71001 = L.marker(
+                [-22.3345612, -49.0343943],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_f747120825f29d830dc966e202d327db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12f5e7215db20e64e17a222ef62fa24f = $(`<div id="html_12f5e7215db20e64e17a222ef62fa24f" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA BENEDITO RIBEIRO DOS SANTOS COM A AVENIDA CRUZEIRO DO SUL.</b><br>Distância: 1.23 km<br>Salário: 1282.54</div>`)[0];
+                popup_f747120825f29d830dc966e202d327db.setContent(html_12f5e7215db20e64e17a222ef62fa24f);
+            
+        
+
+        marker_5cfbcd7f50d52c0df4165d895ef71001.bindPopup(popup_f747120825f29d830dc966e202d327db)
+        ;
+
+        
+    
+    
+            var marker_8181082436d15a4f77b957f041d5d639 = L.marker(
+                [-22.3412426, -49.1093417],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_fcdc11b46a957b37020980b7c7bfe5b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_840c5885430dad818ff954ccc7b72105 = $(`<div id="html_840c5885430dad818ff954ccc7b72105" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA MARIA HONORIA D'AVILA ENGLER COM A RUA BERNARDINO DE CAMPOS.</b><br>Distância: 6.62 km<br>Salário: 1277.36</div>`)[0];
+                popup_fcdc11b46a957b37020980b7c7bfe5b5.setContent(html_840c5885430dad818ff954ccc7b72105);
+            
+        
+
+        marker_8181082436d15a4f77b957f041d5d639.bindPopup(popup_fcdc11b46a957b37020980b7c7bfe5b5)
+        ;
+
+        
+    
+    
+            var marker_895b71daa88a315e776acdb9ff677d14 = L.marker(
+                [-22.3184384, -49.0341005],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_c45f5d7ecd8926709c4543ac9b9e7af7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d138ce77c36fd3072f73173a71ef93a = $(`<div id="html_5d138ce77c36fd3072f73173a71ef93a" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA ARFEH EL TIMANI COM A RUA JOÃO VITICA.</b><br>Distância: 2.59 km<br>Salário: 1276.14</div>`)[0];
+                popup_c45f5d7ecd8926709c4543ac9b9e7af7.setContent(html_5d138ce77c36fd3072f73173a71ef93a);
+            
+        
+
+        marker_895b71daa88a315e776acdb9ff677d14.bindPopup(popup_c45f5d7ecd8926709c4543ac9b9e7af7)
+        ;
+
+        
+    
+    
+            var marker_e1a1aa6137dffedcf068a7e74ff8ddd9 = L.marker(
+                [-22.3209037, -49.0279603],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_16efe9b9f5be9fad2f8bdea47da657e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c54828373f1e37c4ebf2319ca52d590b = $(`<div id="html_c54828373f1e37c4ebf2319ca52d590b" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA JOÃO ESTEVES DE SOUZA COM A RUA RAFAEL PEREIRA MARTINI.</b><br>Distância: 2.71 km<br>Salário: 1275.43</div>`)[0];
+                popup_16efe9b9f5be9fad2f8bdea47da657e5.setContent(html_c54828373f1e37c4ebf2319ca52d590b);
+            
+        
+
+        marker_e1a1aa6137dffedcf068a7e74ff8ddd9.bindPopup(popup_16efe9b9f5be9fad2f8bdea47da657e5)
+        ;
+
+        
+    
+    
+            var marker_d9361701c77015441e481a43e8153a86 = L.marker(
+                [-22.3192627, -49.090072],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_8c27a3cd78e25747ba39ecf2800ef2f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_058d5f3aa2fbf83785c30fb1faa9affb = $(`<div id="html_058d5f3aa2fbf83785c30fb1faa9affb" style="width: 100.0%; height: 100.0%;"><b>RUA CAETANO CARIANI COM A RUA JOSÉ TORRES BRITO.</b><br>Distância: 5.15 km<br>Salário: 1265.38</div>`)[0];
+                popup_8c27a3cd78e25747ba39ecf2800ef2f5.setContent(html_058d5f3aa2fbf83785c30fb1faa9affb);
+            
+        
+
+        marker_d9361701c77015441e481a43e8153a86.bindPopup(popup_8c27a3cd78e25747ba39ecf2800ef2f5)
+        ;
+
+        
+    
+    
+            var marker_00e71f7d892374ba4b2a8f33078c64f3 = L.marker(
+                [-22.3236884, -49.0191863],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_73186ef19e37c0bd9307a2d6a77ce817 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4177a960db0e4d012eaf37abc60c63fa = $(`<div id="html_4177a960db0e4d012eaf37abc60c63fa" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA ARGEMIRO JORGE FERRAZ COM A RUA MARIA DE LOURDES ALMEIDA CAMARGO.</b><br>Distância: 3.19 km<br>Salário: 1263.91</div>`)[0];
+                popup_73186ef19e37c0bd9307a2d6a77ce817.setContent(html_4177a960db0e4d012eaf37abc60c63fa);
+            
+        
+
+        marker_00e71f7d892374ba4b2a8f33078c64f3.bindPopup(popup_73186ef19e37c0bd9307a2d6a77ce817)
+        ;
+
+        
+    
+    
+            var marker_f9556c9097500d1abd1586a59ead12a4 = L.marker(
+                [-22.3334625, -49.0226772],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_6700c9caaaa29a59c479ed899f7ae424 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4d56d9f075e80abe41f40e43911fb61 = $(`<div id="html_a4d56d9f075e80abe41f40e43911fb61" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA LÚCIO LUCIANO COM A RUA RAFAEL PEREIRA MARTINI.</b><br>Distância: 2.40 km<br>Salário: 1260.01</div>`)[0];
+                popup_6700c9caaaa29a59c479ed899f7ae424.setContent(html_a4d56d9f075e80abe41f40e43911fb61);
+            
+        
+
+        marker_f9556c9097500d1abd1586a59ead12a4.bindPopup(popup_6700c9caaaa29a59c479ed899f7ae424)
+        ;
+
+        
+    
+    
+            var marker_8c85c6a901b9b0bcbb9830d731e87888 = L.marker(
+                [-22.3239599, -49.0271961],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_f886361e92b5ee033b0aad3e6a144406 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_369c476a93200596ba2e6c82f482cfb0 = $(`<div id="html_369c476a93200596ba2e6c82f482cfb0" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA ANYSIO CASTILHO DE SOUZA COM A RUA ADANTE GIGO.</b><br>Distância: 2.52 km<br>Salário: 1250.69</div>`)[0];
+                popup_f886361e92b5ee033b0aad3e6a144406.setContent(html_369c476a93200596ba2e6c82f482cfb0);
+            
+        
+
+        marker_8c85c6a901b9b0bcbb9830d731e87888.bindPopup(popup_f886361e92b5ee033b0aad3e6a144406)
+        ;
+
+        
+    
+    
+            var marker_63a981cc3adfdfd20824372cb84f4754 = L.marker(
+                [-22.3033351, -49.0563027],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_5afad5beb6cf6ac89be98a0191631abd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ed1465424ef24e22868de94b85cc954 = $(`<div id="html_7ed1465424ef24e22868de94b85cc954" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA VALDEMIR NUNES MEDEIROS COM A RUA LUIZ CARRER.</b><br>Distância: 4.17 km<br>Salário: 1243.77</div>`)[0];
+                popup_5afad5beb6cf6ac89be98a0191631abd.setContent(html_7ed1465424ef24e22868de94b85cc954);
+            
+        
+
+        marker_63a981cc3adfdfd20824372cb84f4754.bindPopup(popup_5afad5beb6cf6ac89be98a0191631abd)
+        ;
+
+        
+    
+    
+            var marker_f29ce49d2d8ab0ab15d24e814713b6cd = L.marker(
+                [-22.2980202, -49.0703413],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_8d87f4b8a69a9614b9f25f5dd5f76089 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08f68d133c7febeba26b444bb63a7714 = $(`<div id="html_08f68d133c7febeba26b444bb63a7714" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA ALAMEDA CÔNEGO ANIBAL DI FRANCIA COM A ALAMEDA DAS ANGÉLICAS.</b><br>Distância: 5.28 km<br>Salário: 1240.61</div>`)[0];
+                popup_8d87f4b8a69a9614b9f25f5dd5f76089.setContent(html_08f68d133c7febeba26b444bb63a7714);
+            
+        
+
+        marker_f29ce49d2d8ab0ab15d24e814713b6cd.bindPopup(popup_8d87f4b8a69a9614b9f25f5dd5f76089)
+        ;
+
+        
+    
+    
+            var marker_65649fc2b8242481df19841353e12ba6 = L.marker(
+                [-22.3179426, -49.0921957],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_4404f4676dc14af50abf5d55a6547762 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3bc270d9f8e35ac057a16179366ce01 = $(`<div id="html_e3bc270d9f8e35ac057a16179366ce01" style="width: 100.0%; height: 100.0%;"><b>RUA DARWIN JESUS BORDIN COM A RUA EUGÊNIO BORRO.</b><br>Distância: 5.41 km<br>Salário: 1237.88</div>`)[0];
+                popup_4404f4676dc14af50abf5d55a6547762.setContent(html_e3bc270d9f8e35ac057a16179366ce01);
+            
+        
+
+        marker_65649fc2b8242481df19841353e12ba6.bindPopup(popup_4404f4676dc14af50abf5d55a6547762)
+        ;
+
+        
+    
+    
+            var marker_a251777a6c734f17f4aeb8ac04d2d2b5 = L.marker(
+                [-22.3193872, -49.10962],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_a734202793787eb2ed54f6175587cce1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af42c14e409afadf5e33e16e3b334abc = $(`<div id="html_af42c14e409afadf5e33e16e3b334abc" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA SOLDADO GERALDO ALVES CARVALHO COM A AVENIDA PINHEIRO MACHADO.</b><br>Distância: 7.01 km<br>Salário: 1223.83</div>`)[0];
+                popup_a734202793787eb2ed54f6175587cce1.setContent(html_af42c14e409afadf5e33e16e3b334abc);
+            
+        
+
+        marker_a251777a6c734f17f4aeb8ac04d2d2b5.bindPopup(popup_a734202793787eb2ed54f6175587cce1)
+        ;
+
+        
+    
+    
+            var marker_dc7b71a468764b783a36f1108cb62f36 = L.marker(
+                [-22.3334625, -49.0226772],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_bca5e3b04174341f0b301a5cb81f3416 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f29934573394c5debe395f30124b83d1 = $(`<div id="html_f29934573394c5debe395f30124b83d1" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA LÚCIO LUCIANO COM A RUA LUZIA P. SAMOGIN.</b><br>Distância: 2.40 km<br>Salário: 1217.26</div>`)[0];
+                popup_bca5e3b04174341f0b301a5cb81f3416.setContent(html_f29934573394c5debe395f30124b83d1);
+            
+        
+
+        marker_dc7b71a468764b783a36f1108cb62f36.bindPopup(popup_bca5e3b04174341f0b301a5cb81f3416)
+        ;
+
+        
+    
+    
+            var marker_81f5eb8bf3c9ee75319e7bd0730591b7 = L.marker(
+                [-22.3526647, -49.0967504],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_af6449cc462f5dfb0dd33ac0dce79baa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d540647515dc0bbe371596c2ab3e99f = $(`<div id="html_6d540647515dc0bbe371596c2ab3e99f" style="width: 100.0%; height: 100.0%;"><b>AVENIDA JOSÉ HENRIQUE FERRAZ COM A RUA VENEZUELA.</b><br>Distância: 5.52 km<br>Salário: 1211.92</div>`)[0];
+                popup_af6449cc462f5dfb0dd33ac0dce79baa.setContent(html_6d540647515dc0bbe371596c2ab3e99f);
+            
+        
+
+        marker_81f5eb8bf3c9ee75319e7bd0730591b7.bindPopup(popup_af6449cc462f5dfb0dd33ac0dce79baa)
+        ;
+
+        
+    
+    
+            var marker_f1fccc2d6cc926b7c517ecf94f612195 = L.marker(
+                [-22.3111245, -49.0947327],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_9d2fd92ced0d7ce909060183fabc1d0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5128f65ddea138b2afc1bd47e95faaff = $(`<div id="html_5128f65ddea138b2afc1bd47e95faaff" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA JOSÉ COSTA RIBEIRO COM A RUA ALTO DO JURUÁ.</b><br>Distância: 6.00 km<br>Salário: 1208.58</div>`)[0];
+                popup_9d2fd92ced0d7ce909060183fabc1d0d.setContent(html_5128f65ddea138b2afc1bd47e95faaff);
+            
+        
+
+        marker_f1fccc2d6cc926b7c517ecf94f612195.bindPopup(popup_9d2fd92ced0d7ce909060183fabc1d0d)
+        ;
+
+        
+    
+    
+            var marker_8463427bf4e8bb45174435e912f96131 = L.marker(
+                [-22.3028265, -49.050064],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_7799d6dbd7f8f15b12fb90b5adb59bbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6572674b96834b15010a139bca9a9103 = $(`<div id="html_6572674b96834b15010a139bca9a9103" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA SYLVIO BOMBINI FILHO COM A RUA ALEXANDRE JORGE NASRALLA.</b><br>Distância: 4.09 km<br>Salário: 1205.06</div>`)[0];
+                popup_7799d6dbd7f8f15b12fb90b5adb59bbb.setContent(html_6572674b96834b15010a139bca9a9103);
+            
+        
+
+        marker_8463427bf4e8bb45174435e912f96131.bindPopup(popup_7799d6dbd7f8f15b12fb90b5adb59bbb)
+        ;
+
+        
+    
+    
+            var marker_db215c3b67a780c778c42a89faacef4a = L.marker(
+                [-22.3526647, -49.0967504],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_bf7ae18fd9f0279ae99dee3aaf750f8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f0dd2386722cec27ccbfe5779917715 = $(`<div id="html_5f0dd2386722cec27ccbfe5779917715" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA JOSÉ HENRIQUE FERRAZ COM A RUA BOLÍVIA.</b><br>Distância: 5.52 km<br>Salário: 1202.09</div>`)[0];
+                popup_bf7ae18fd9f0279ae99dee3aaf750f8c.setContent(html_5f0dd2386722cec27ccbfe5779917715);
+            
+        
+
+        marker_db215c3b67a780c778c42a89faacef4a.bindPopup(popup_bf7ae18fd9f0279ae99dee3aaf750f8c)
+        ;
+
+        
+    
+    
+            var marker_441d89923c6db96aedcca13aad56b1bd = L.marker(
+                [-22.3178165, -49.0228414],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_d2f96316292bf6f96f231b6c5f1045c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20aa85340b752d56588d159f49a0242d = $(`<div id="html_20aa85340b752d56588d159f49a0242d" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA TEODORO ALVARES COM A AVENIDA CRUZEIRO DO SUL.</b><br>Distância: 3.32 km<br>Salário: 1201.24</div>`)[0];
+                popup_d2f96316292bf6f96f231b6c5f1045c5.setContent(html_20aa85340b752d56588d159f49a0242d);
+            
+        
+
+        marker_441d89923c6db96aedcca13aad56b1bd.bindPopup(popup_d2f96316292bf6f96f231b6c5f1045c5)
+        ;
+
+        
+    
+    
+            var marker_2794bd10e77eaafce50102bf8c10fae7 = L.marker(
+                [-22.3373055, -49.1097069],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_56645e5482d121293b81df7ae9d9d973 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c95cc32d3294fde64917dfbd9ab7410 = $(`<div id="html_0c95cc32d3294fde64917dfbd9ab7410" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA EDILSON ALVES DE CARVALHO COM A RUA MÁRIO GONZAGA JUNQUEIRA.</b><br>Distância: 6.66 km<br>Salário: 1196.62</div>`)[0];
+                popup_56645e5482d121293b81df7ae9d9d973.setContent(html_0c95cc32d3294fde64917dfbd9ab7410);
+            
+        
+
+        marker_2794bd10e77eaafce50102bf8c10fae7.bindPopup(popup_56645e5482d121293b81df7ae9d9d973)
+        ;
+
+        
+    
+    
+            var marker_59fbeb59eccb2ba7c7d069ca4b3a3064 = L.marker(
+                [-22.3163913, -49.0282538],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_9cbac4cb6fd4444aff9357761b3f7305 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_226f622a119ab31cef40a9a53078b6a4 = $(`<div id="html_226f622a119ab31cef40a9a53078b6a4" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA SANTA FRANCISCA DE CHANTAL COM A RUA SÃO LUCAS.</b><br>Distância: 3.09 km<br>Salário: 1196.08</div>`)[0];
+                popup_9cbac4cb6fd4444aff9357761b3f7305.setContent(html_226f622a119ab31cef40a9a53078b6a4);
+            
+        
+
+        marker_59fbeb59eccb2ba7c7d069ca4b3a3064.bindPopup(popup_9cbac4cb6fd4444aff9357761b3f7305)
+        ;
+
+        
+    
+    
+            var marker_6a468dd1c99f8325bfaa6cf4e8c7507a = L.marker(
+                [-22.300323, -49.0693657],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_a1d8b79dc2a40641791189b49f1e779b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82b1bd61c84c6870b2882daf60f53274 = $(`<div id="html_82b1bd61c84c6870b2882daf60f53274" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA EUGÊNIO PAULUCCI COM A AVENIDA JÂNIO DA SILVA QUADROS.</b><br>Distância: 5.01 km<br>Salário: 1171.44</div>`)[0];
+                popup_a1d8b79dc2a40641791189b49f1e779b.setContent(html_82b1bd61c84c6870b2882daf60f53274);
+            
+        
+
+        marker_6a468dd1c99f8325bfaa6cf4e8c7507a.bindPopup(popup_a1d8b79dc2a40641791189b49f1e779b)
+        ;
+
+        
+    
+    
+            var marker_eb98e76d2a00e33c93fdffad3c7cb5cd = L.marker(
+                [-22.3309175, -49.0204956],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_57d26428b4dd06b2a0c63c999ca462be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_356e0ed3371ef1086588099b5abdaaeb = $(`<div id="html_356e0ed3371ef1086588099b5abdaaeb" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA IRMÃOS DO SAGRADO CORAÇÃO COM A RUA CLÁUDIO C. LOURENÇO.</b><br>Distância: 2.71 km<br>Salário: 1162.68</div>`)[0];
+                popup_57d26428b4dd06b2a0c63c999ca462be.setContent(html_356e0ed3371ef1086588099b5abdaaeb);
+            
+        
+
+        marker_eb98e76d2a00e33c93fdffad3c7cb5cd.bindPopup(popup_57d26428b4dd06b2a0c63c999ca462be)
+        ;
+
+        
+    
+    
+            var marker_c25f307c46b395d8890fb821d2ce5d72 = L.marker(
+                [-22.3049386, -49.005763],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_4d8835d823e094e05d0d503bffc58eaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f7f30111251fadf34a1fd6fcee87973 = $(`<div id="html_0f7f30111251fadf34a1fd6fcee87973" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA RUA ÂNGELO MIELLE COM A RUA ARMANDO TURTELLI.</b><br>Distância: 5.57 km<br>Salário: 1151.91</div>`)[0];
+                popup_4d8835d823e094e05d0d503bffc58eaa.setContent(html_0f7f30111251fadf34a1fd6fcee87973);
+            
+        
+
+        marker_c25f307c46b395d8890fb821d2ce5d72.bindPopup(popup_4d8835d823e094e05d0d503bffc58eaa)
+        ;
+
+        
+    
+    
+            var marker_e748675d56123ec4827411fd5b3d5e2c = L.marker(
+                [-22.3047582, -49.0979956],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_97c42b82b5e9b4081b5926794a013eb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c95019f300ea7162bdc47d1aa54a128e = $(`<div id="html_c95019f300ea7162bdc47d1aa54a128e" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA FELIPE PARDO COM A RUA ÂNGELO COLACINO.</b><br>Distância: 6.67 km<br>Salário: 1140.27</div>`)[0];
+                popup_97c42b82b5e9b4081b5926794a013eb7.setContent(html_c95019f300ea7162bdc47d1aa54a128e);
+            
+        
+
+        marker_e748675d56123ec4827411fd5b3d5e2c.bindPopup(popup_97c42b82b5e9b4081b5926794a013eb7)
+        ;
+
+        
+    
+    
+            var marker_ea9d751ae86b5c3eeadc9b1ab12ec2a2 = L.marker(
+                [-22.3094574, -49.1015272],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_704cedcea1426720da0d45e4ae7def99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_820aadd1784dc861b2b04a42841f4c3b = $(`<div id="html_820aadd1784dc861b2b04a42841f4c3b" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA ALAMEDA ALEXANDRIA COM A AVENIDA ENGENHEIRO PAULO DE FRONTIN.</b><br>Distância: 6.70 km<br>Salário: 1138.41</div>`)[0];
+                popup_704cedcea1426720da0d45e4ae7def99.setContent(html_820aadd1784dc861b2b04a42841f4c3b);
+            
+        
+
+        marker_ea9d751ae86b5c3eeadc9b1ab12ec2a2.bindPopup(popup_704cedcea1426720da0d45e4ae7def99)
+        ;
+
+        
+    
+    
+            var marker_4c4091b18a4236374a48c6753f8b04d5 = L.marker(
+                [-22.3214181, -49.1272217],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_ce6a54346b71d9a4059b4d21353758b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_056ef1d5d44d46e6be35a05811f756e0 = $(`<div id="html_056ef1d5d44d46e6be35a05811f756e0" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA ALAMEDA TRÊS LAGOAS COM A AVENIDA ELIAS MIGUEL MALUF.</b><br>Distância: 8.70 km<br>Salário: 1128.41</div>`)[0];
+                popup_ce6a54346b71d9a4059b4d21353758b3.setContent(html_056ef1d5d44d46e6be35a05811f756e0);
+            
+        
+
+        marker_4c4091b18a4236374a48c6753f8b04d5.bindPopup(popup_ce6a54346b71d9a4059b4d21353758b3)
+        ;
+
+        
+    
+    
+            var marker_5bdf9b84d5d8343702efdb52490c7a1d = L.marker(
+                [-22.3266488, -49.0306688],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_6c8365de76f55aa58142cb4cb43c9c96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_840ce1d0b6d0071297ecc51e129ef1ce = $(`<div id="html_840ce1d0b6d0071297ecc51e129ef1ce" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA OCTACÍLIO DE ANDRADE TOURINHO COM A RUA ANTÔNIO MANOEL COSTA.</b><br>Distância: 2.06 km<br>Salário: 1127.66</div>`)[0];
+                popup_6c8365de76f55aa58142cb4cb43c9c96.setContent(html_840ce1d0b6d0071297ecc51e129ef1ce);
+            
+        
+
+        marker_5bdf9b84d5d8343702efdb52490c7a1d.bindPopup(popup_6c8365de76f55aa58142cb4cb43c9c96)
+        ;
+
+        
+    
+    
+            var marker_8502cf3b04b1051b516452adf023a5eb = L.marker(
+                [-22.2675268, -49.0737071],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_299e4826acaf6037aa125bba6466a8bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f8d5c5efbc1673595db0b7a8e36df8b = $(`<div id="html_1f8d5c5efbc1673595db0b7a8e36df8b" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA RUA PEDRO DE CASTRO PEREIRA COM A DIVISA DA FAZENDA SÃO JOÃO.</b><br>Distância: 8.50 km<br>Salário: 1126.54</div>`)[0];
+                popup_299e4826acaf6037aa125bba6466a8bb.setContent(html_1f8d5c5efbc1673595db0b7a8e36df8b);
+            
+        
+
+        marker_8502cf3b04b1051b516452adf023a5eb.bindPopup(popup_299e4826acaf6037aa125bba6466a8bb)
+        ;
+
+        
+    
+    
+            var marker_98a013c2496a4499fc1bbe52218d2b8c = L.marker(
+                [-22.2696019, -49.0761495],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_511afa9533f4e40f3d17a1e7b226961d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_823e58ba31c07570c8e64a76c70076f1 = $(`<div id="html_823e58ba31c07570c8e64a76c70076f1" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA RUA OSCAR SWENSON COM A RUA ERNESTO CASERIO.</b><br>Distância: 8.38 km<br>Salário: 1120.71</div>`)[0];
+                popup_511afa9533f4e40f3d17a1e7b226961d.setContent(html_823e58ba31c07570c8e64a76c70076f1);
+            
+        
+
+        marker_98a013c2496a4499fc1bbe52218d2b8c.bindPopup(popup_511afa9533f4e40f3d17a1e7b226961d)
+        ;
+
+        
+    
+    
+            var marker_833ef5342f7b91127d3bf9a56eef6d3c = L.marker(
+                [-22.2675268, -49.0737071],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_5ad1e6f9e7564ce974b9008ffec390f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72df4a38acd3eef8e257ce3d64ef52f8 = $(`<div id="html_72df4a38acd3eef8e257ce3d64ef52f8" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA PEDRO DE CASTRO PEREIRA COM O PROLONGAMENTO DA RUA WALTER SILVA.</b><br>Distância: 8.50 km<br>Salário: 1117.75</div>`)[0];
+                popup_5ad1e6f9e7564ce974b9008ffec390f1.setContent(html_72df4a38acd3eef8e257ce3d64ef52f8);
+            
+        
+
+        marker_833ef5342f7b91127d3bf9a56eef6d3c.bindPopup(popup_5ad1e6f9e7564ce974b9008ffec390f1)
+        ;
+
+        
+    
+    
+            var marker_306b89337bb66e5d65737b913aa8dc57 = L.marker(
+                [-22.3526647, -49.0967504],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_6f4f0be6fcf76e692d65d4e1b6156614 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5683e8e9d41a375c53e37a983bd4f687 = $(`<div id="html_5683e8e9d41a375c53e37a983bd4f687" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA JOSÉ HENRIQUE FERRAZ COM A RUA FÁBIO GERALDO.</b><br>Distância: 5.52 km<br>Salário: 1110.64</div>`)[0];
+                popup_6f4f0be6fcf76e692d65d4e1b6156614.setContent(html_5683e8e9d41a375c53e37a983bd4f687);
+            
+        
+
+        marker_306b89337bb66e5d65737b913aa8dc57.bindPopup(popup_6f4f0be6fcf76e692d65d4e1b6156614)
+        ;
+
+        
+    
+    
+            var marker_9f178e5ab39ce37265599940705505db = L.marker(
+                [-22.3132511, -49.1263101],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_ae02f828e2c84849fbfe8d6b40f9c3b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_425ee80b110d2daf0a769d4cbd29cd49 = $(`<div id="html_425ee80b110d2daf0a769d4cbd29cd49" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA SEBASTIÃO JOAQUIM SAMPAIO COM A RUA OLINDO BATISTA.</b><br>Distância: 8.86 km<br>Salário: 1107.29</div>`)[0];
+                popup_ae02f828e2c84849fbfe8d6b40f9c3b2.setContent(html_425ee80b110d2daf0a769d4cbd29cd49);
+            
+        
+
+        marker_9f178e5ab39ce37265599940705505db.bindPopup(popup_ae02f828e2c84849fbfe8d6b40f9c3b2)
+        ;
+
+        
+    
+    
+            var marker_b9fceba8cd8ba3e7019a647f66ca680c = L.marker(
+                [-22.3051908, -49.109754],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_8eafaa0acc8b4536323bd973d87a34b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1984ef06c05fcfa651b7c0cf1333fccd = $(`<div id="html_1984ef06c05fcfa651b7c0cf1333fccd" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA EDSON PEREIRA LEITE COM A RUA JUVENAL BASTOS.</b><br>Distância: 7.67 km<br>Salário: 1089.18</div>`)[0];
+                popup_8eafaa0acc8b4536323bd973d87a34b9.setContent(html_1984ef06c05fcfa651b7c0cf1333fccd);
+            
+        
+
+        marker_b9fceba8cd8ba3e7019a647f66ca680c.bindPopup(popup_8eafaa0acc8b4536323bd973d87a34b9)
+        ;
+
+        
+    
+    
+            var marker_c3ecb940c5c6b59193e9704d0ba7661b = L.marker(
+                [-22.3643571, -49.044134],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_f46587159b85a4242b94e43ec3199e94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5bfd25b94ab88e8ef5a77f1a6ad9eb6 = $(`<div id="html_b5bfd25b94ab88e8ef5a77f1a6ad9eb6" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA LUIZ TENTOR COM A RODOVIA JOÃO BATISTA CABRAL RENNÓ (BAURU / PIRATININGA).</b><br>Distância: 2.75 km<br>Salário: 1073.07</div>`)[0];
+                popup_f46587159b85a4242b94e43ec3199e94.setContent(html_b5bfd25b94ab88e8ef5a77f1a6ad9eb6);
+            
+        
+
+        marker_c3ecb940c5c6b59193e9704d0ba7661b.bindPopup(popup_f46587159b85a4242b94e43ec3199e94)
+        ;
+
+        
+    
+    
+            var marker_b39210e7b06f7889dd4cccae2674b58a = L.marker(
+                [-22.3050751, -49.0917939],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_85448a7a868eb64ee138de2cc7806a34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_703a55fdb63c363cb497693a6e331967 = $(`<div id="html_703a55fdb63c363cb497693a6e331967" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA LUIZ BATISTA COM O CÓRREGO DAS FLORES II.</b><br>Distância: 6.14 km<br>Salário: 1065.35</div>`)[0];
+                popup_85448a7a868eb64ee138de2cc7806a34.setContent(html_703a55fdb63c363cb497693a6e331967);
+            
+        
+
+        marker_b39210e7b06f7889dd4cccae2674b58a.bindPopup(popup_85448a7a868eb64ee138de2cc7806a34)
+        ;
+
+        
+    
+    
+            var marker_468b8082645d5fe5a84b022ef8c8c929 = L.marker(
+                [-22.274089, -49.0657322],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_bf58cf73ab8b0650041af96c0f880751 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec257f67d139004df0c557f0e8fd8366 = $(`<div id="html_ec257f67d139004df0c557f0e8fd8366" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA RUA LUIZ DE OLIVEIRA NETO COM A RUA PAULO HÚNGARO.</b><br>Distância: 7.55 km<br>Salário: 1060.33</div>`)[0];
+                popup_bf58cf73ab8b0650041af96c0f880751.setContent(html_ec257f67d139004df0c557f0e8fd8366);
+            
+        
+
+        marker_468b8082645d5fe5a84b022ef8c8c929.bindPopup(popup_bf58cf73ab8b0650041af96c0f880751)
+        ;
+
+        
+    
+    
+            var marker_b361cf41dbed92f8706f1284de3fd902 = L.marker(
+                [-22.3042727, -49.0525126],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_a874c0d9154335cf17b5db9d446a8546 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c7b238ba63ccdc9d5dbaefecd1ee58f = $(`<div id="html_0c7b238ba63ccdc9d5dbaefecd1ee58f" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA JOSÉ ANTÔNIO BARRETO COM A RUA BENITO JOSÉ ALLEGRO.</b><br>Distância: 3.98 km<br>Salário: 1040.23</div>`)[0];
+                popup_a874c0d9154335cf17b5db9d446a8546.setContent(html_0c7b238ba63ccdc9d5dbaefecd1ee58f);
+            
+        
+
+        marker_b361cf41dbed92f8706f1284de3fd902.bindPopup(popup_a874c0d9154335cf17b5db9d446a8546)
+        ;
+
+        
+    
+    
+            var marker_69292fb2d45b076b18c3b32e279390d6 = L.marker(
+                [-22.2773886, -49.0880231],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_a9b330dad0ec1d41239409464f7f2829 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cea048272f511e475a157ffa51160c0 = $(`<div id="html_7cea048272f511e475a157ffa51160c0" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA AVENIDA DOS AÇOUGUEIROS COM A RUA DAS SECRETÁRIAS.</b><br>Distância: 8.18 km<br>Salário: 1013.05</div>`)[0];
+                popup_a9b330dad0ec1d41239409464f7f2829.setContent(html_7cea048272f511e475a157ffa51160c0);
+            
+        
+
+        marker_69292fb2d45b076b18c3b32e279390d6.bindPopup(popup_a9b330dad0ec1d41239409464f7f2829)
+        ;
+
+        
+    
+    
+            var marker_6e10deac2e636fa7a5d19a95ba925992 = L.marker(
+                [-22.3272511, -49.0827755],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_17d08690e988b6f5114a54b0c7e51399 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbe8cde335afb3394e6345ac58c6794b = $(`<div id="html_fbe8cde335afb3394e6345ac58c6794b" style="width: 100.0%; height: 100.0%;"><b> AVENIDA ALFREDO MAIA COM A PRAÇA ESPANHA.</b><br>Distância: 4.11 km<br>Salário: 1010.11</div>`)[0];
+                popup_17d08690e988b6f5114a54b0c7e51399.setContent(html_fbe8cde335afb3394e6345ac58c6794b);
+            
+        
+
+        marker_6e10deac2e636fa7a5d19a95ba925992.bindPopup(popup_17d08690e988b6f5114a54b0c7e51399)
+        ;
+
+        
+    
+    
+            var marker_e60d6407816cde4ae17921b4736dfa4b = L.marker(
+                [-22.2955057, -49.0457177],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_3d3f01190d55dcff55733a51f6aff3e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d8cdbe9fcb0a32036a4e3d2ec7ab4a5 = $(`<div id="html_1d8cdbe9fcb0a32036a4e3d2ec7ab4a5" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA MARCOS DE PAULA RAPHAEL COM A RUA ALBERTO PAULOVICH.</b><br>Distância: 4.87 km<br>Salário: 1006.85</div>`)[0];
+                popup_3d3f01190d55dcff55733a51f6aff3e3.setContent(html_1d8cdbe9fcb0a32036a4e3d2ec7ab4a5);
+            
+        
+
+        marker_e60d6407816cde4ae17921b4736dfa4b.bindPopup(popup_3d3f01190d55dcff55733a51f6aff3e3)
+        ;
+
+        
+    
+    
+            var marker_81f02d1c93f29f6a065a26a547d9fa04 = L.marker(
+                [-22.2955057, -49.0457177],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_b214da217974b631ed752e176ad238ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1dd84771a5d13bfe1ec9897fe9942e4 = $(`<div id="html_a1dd84771a5d13bfe1ec9897fe9942e4" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA MARCOS DE PAULA RAPHAEL COM A RUA VICTOR LEANDRO DOMINGUES.</b><br>Distância: 4.87 km<br>Salário: 989.22</div>`)[0];
+                popup_b214da217974b631ed752e176ad238ff.setContent(html_a1dd84771a5d13bfe1ec9897fe9942e4);
+            
+        
+
+        marker_81f02d1c93f29f6a065a26a547d9fa04.bindPopup(popup_b214da217974b631ed752e176ad238ff)
+        ;
+
+        
+    
+    
+            var marker_d3be8878271aeb6cf5d026a8e248830e = L.marker(
+                [-22.3352483, -49.0324821],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_39f1277f5968ea8cb95fe9ba3f5158dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04a1bc75d30344f9274408560d9e2b91 = $(`<div id="html_04a1bc75d30344f9274408560d9e2b91" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA ENGENHEIRO XERXES RIBEIRO DOS SANTOS COM A RUA MARECHAL DEODORO.</b><br>Distância: 1.38 km<br>Salário: 986.28</div>`)[0];
+                popup_39f1277f5968ea8cb95fe9ba3f5158dd.setContent(html_04a1bc75d30344f9274408560d9e2b91);
+            
+        
+
+        marker_d3be8878271aeb6cf5d026a8e248830e.bindPopup(popup_39f1277f5968ea8cb95fe9ba3f5158dd)
+        ;
+
+        
+    
+    
+            var marker_145433afd69e77c1b9196684e013ee45 = L.marker(
+                [-22.3519483, -49.0588612],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_ab261e83857a196856cf3ca48c8aa444 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6c8f12b98e35e01c14113a7470ad546 = $(`<div id="html_e6c8f12b98e35e01c14113a7470ad546" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DOS TRILHOS DA FERROBAN COM O PROLONGAMENTO DA RUA DOUTOR ARMANDO PIERONI.</b><br>Distância: 1.98 km<br>Salário: 984.17</div>`)[0];
+                popup_ab261e83857a196856cf3ca48c8aa444.setContent(html_e6c8f12b98e35e01c14113a7470ad546);
+            
+        
+
+        marker_145433afd69e77c1b9196684e013ee45.bindPopup(popup_ab261e83857a196856cf3ca48c8aa444)
+        ;
+
+        
+    
+    
+            var marker_cef8294c63a5a5f6ed7462c75fded5c8 = L.marker(
+                [-22.3242806, -49.0959802],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_0d9ff74864855bb363c9a9c8833bcadd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a8b2a022c752ad048b1fd5aa1783f38 = $(`<div id="html_5a8b2a022c752ad048b1fd5aa1783f38" style="width: 100.0%; height: 100.0%;"><b> RUA PIATAN COM OS TRILHOS DA NOVOESTE.</b><br>Distância: 5.51 km<br>Salário: 978.01</div>`)[0];
+                popup_0d9ff74864855bb363c9a9c8833bcadd.setContent(html_5a8b2a022c752ad048b1fd5aa1783f38);
+            
+        
+
+        marker_cef8294c63a5a5f6ed7462c75fded5c8.bindPopup(popup_0d9ff74864855bb363c9a9c8833bcadd)
+        ;
+
+        
+    
+    
+            var marker_7ceaf6c77ae11128c665a3f1b3b73e37 = L.marker(
+                [-22.3068971, -49.1064831],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_74597ea7f40911205de9a0a11498f589 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b436745b50debbf283e2c6af7b19242 = $(`<div id="html_5b436745b50debbf283e2c6af7b19242" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA ALAMEDA DESCARTES COM A RUA PROFESSOR AYRTON BUSCH.</b><br>Distância: 7.28 km<br>Salário: 976.54</div>`)[0];
+                popup_74597ea7f40911205de9a0a11498f589.setContent(html_5b436745b50debbf283e2c6af7b19242);
+            
+        
+
+        marker_7ceaf6c77ae11128c665a3f1b3b73e37.bindPopup(popup_74597ea7f40911205de9a0a11498f589)
+        ;
+
+        
+    
+    
+            var marker_5777845aa9a2b14b4d7c31434cc49089 = L.marker(
+                [-22.2955057, -49.0457177],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_16acabf02a948cd5aa39fddc80f07d33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83df490a253dfe95ff850e01a08c921d = $(`<div id="html_83df490a253dfe95ff850e01a08c921d" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA MARCOS DE PAULA RAPHAEL COM A RUA PEDRO SALVADOR.</b><br>Distância: 4.87 km<br>Salário: 971.64</div>`)[0];
+                popup_16acabf02a948cd5aa39fddc80f07d33.setContent(html_83df490a253dfe95ff850e01a08c921d);
+            
+        
+
+        marker_5777845aa9a2b14b4d7c31434cc49089.bindPopup(popup_16acabf02a948cd5aa39fddc80f07d33)
+        ;
+
+        
+    
+    
+            var marker_8b90c3560db759983522a3d01dfb51e6 = L.marker(
+                [-22.3345612, -49.0343943],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_40d7554e4f095744616e7c99f2acf6c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e86c1141e8df247503793f9848c2fced = $(`<div id="html_e86c1141e8df247503793f9848c2fced" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA BENEDITO RIBEIRO DOS SANTOS COM A RUA ANTÔNIO MANOEL COSTA.</b><br>Distância: 1.23 km<br>Salário: 965.04</div>`)[0];
+                popup_40d7554e4f095744616e7c99f2acf6c6.setContent(html_e86c1141e8df247503793f9848c2fced);
+            
+        
+
+        marker_8b90c3560db759983522a3d01dfb51e6.bindPopup(popup_40d7554e4f095744616e7c99f2acf6c6)
+        ;
+
+        
+    
+    
+            var marker_777c8c167849ae799f1d566ac37f3bbb = L.marker(
+                [-22.3017197, -49.0328555],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_d1b35fd90724af0cd625a72e16713f69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6449cab409060854143465ce1da251f = $(`<div id="html_b6449cab409060854143465ce1da251f" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA RUA LUIZ TADEU FRANCELOSO BERRO COM A RUA MARIA DA CONCEIÇÃO.</b><br>Distância: 4.37 km<br>Salário: 955.10</div>`)[0];
+                popup_d1b35fd90724af0cd625a72e16713f69.setContent(html_b6449cab409060854143465ce1da251f);
+            
+        
+
+        marker_777c8c167849ae799f1d566ac37f3bbb.bindPopup(popup_d1b35fd90724af0cd625a72e16713f69)
+        ;
+
+        
+    
+    
+            var marker_c999f5c04207f6c918c6c01f843f1e9d = L.marker(
+                [-22.363777, -49.0909131],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_552c70e307dcfc83690c7a0cd3b5c9b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84fa9cbe08a4fa8834a9843184a26eaf = $(`<div id="html_84fa9cbe08a4fa8834a9843184a26eaf" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RINALDO FRANCO DE CAMARGO COM A DIVISA DO CONDOMÍNIO RESIDENCIAL LAGO DO SUL.</b><br>Distância: 5.43 km<br>Salário: 953.00</div>`)[0];
+                popup_552c70e307dcfc83690c7a0cd3b5c9b2.setContent(html_84fa9cbe08a4fa8834a9843184a26eaf);
+            
+        
+
+        marker_c999f5c04207f6c918c6c01f843f1e9d.bindPopup(popup_552c70e307dcfc83690c7a0cd3b5c9b2)
+        ;
+
+        
+    
+    
+            var marker_0fb9f41dfd2234b5e1160f466f3dd194 = L.marker(
+                [-22.3186773, -49.0354011],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_f6e932fd1b145f391d9041e7f2b275ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c43158df2d2edbe0af38031e404b1f06 = $(`<div id="html_c43158df2d2edbe0af38031e404b1f06" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA HENRIQUE HUNZICKER COM A RUA MIGUEL GIMENEZ FILHO.</b><br>Distância: 2.51 km<br>Salário: 946.96</div>`)[0];
+                popup_f6e932fd1b145f391d9041e7f2b275ba.setContent(html_c43158df2d2edbe0af38031e404b1f06);
+            
+        
+
+        marker_0fb9f41dfd2234b5e1160f466f3dd194.bindPopup(popup_f6e932fd1b145f391d9041e7f2b275ba)
+        ;
+
+        
+    
+    
+            var marker_db8ed7eb57ef49b9fba7cc76a20cadfe = L.marker(
+                [-22.3165915, -49.0330509],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_ce507e8b38a3d01371bbdbcb18390c3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e39ba8579f5a204aa72f11b6da957fd2 = $(`<div id="html_e39ba8579f5a204aa72f11b6da957fd2" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA ENGENHEIRO HÉLIO POLICE COM A ROTATÓRIA DE ACESSO AO JARDIM REDENTOR.</b><br>Distância: 2.82 km<br>Salário: 938.12</div>`)[0];
+                popup_ce507e8b38a3d01371bbdbcb18390c3d.setContent(html_e39ba8579f5a204aa72f11b6da957fd2);
+            
+        
+
+        marker_db8ed7eb57ef49b9fba7cc76a20cadfe.bindPopup(popup_ce507e8b38a3d01371bbdbcb18390c3d)
+        ;
+
+        
+    
+    
+            var marker_4d21b2a8a34aa5aa489ff1e41664850b = L.marker(
+                [-22.3470299, -49.0845111],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_9765d28bbf78407ab60d158df16072a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ccee1369f558b189ebe8f762e96523f = $(`<div id="html_2ccee1369f558b189ebe8f762e96523f" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA CHIYO OTAKE COM A RUA VENEZUELA.</b><br>Distância: 4.15 km<br>Salário: 934.24</div>`)[0];
+                popup_9765d28bbf78407ab60d158df16072a9.setContent(html_2ccee1369f558b189ebe8f762e96523f);
+            
+        
+
+        marker_4d21b2a8a34aa5aa489ff1e41664850b.bindPopup(popup_9765d28bbf78407ab60d158df16072a9)
+        ;
+
+        
+    
+    
+            var marker_e48be92b41503b0bd0108aeb8618bad4 = L.marker(
+                [-22.3067441, -49.1076595],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_a8d5dc3cbbb1ae8c44e8ea3ca1d6a715 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0b2e54270017411c096b5bdc94f2475 = $(`<div id="html_b0b2e54270017411c096b5bdc94f2475" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA LUCIENE AVALONE COM A RUA JOSÉ MARQUES CUSTÓDIO.</b><br>Distância: 7.40 km<br>Salário: 906.26</div>`)[0];
+                popup_a8d5dc3cbbb1ae8c44e8ea3ca1d6a715.setContent(html_b0b2e54270017411c096b5bdc94f2475);
+            
+        
+
+        marker_e48be92b41503b0bd0108aeb8618bad4.bindPopup(popup_a8d5dc3cbbb1ae8c44e8ea3ca1d6a715)
+        ;
+
+        
+    
+    
+            var marker_1ebd977fd144bc062e3630b97e35c778 = L.marker(
+                [-22.3050751, -49.0917939],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_335acf15ebb746d10219129dde3be5ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b01f382cafbfc0e2e4c70df9b7365c5 = $(`<div id="html_7b01f382cafbfc0e2e4c70df9b7365c5" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA PROFESSOR OTHILA S. BRISOLLA COM RUA CORONEL ALVES SEABRA.</b><br>Distância: 6.14 km<br>Salário: 891.45</div>`)[0];
+                popup_335acf15ebb746d10219129dde3be5ed.setContent(html_7b01f382cafbfc0e2e4c70df9b7365c5);
+            
+        
+
+        marker_1ebd977fd144bc062e3630b97e35c778.bindPopup(popup_335acf15ebb746d10219129dde3be5ed)
+        ;
+
+        
+    
+    
+            var marker_3b5efc38b7b2925a18e329cc2f96d9be = L.marker(
+                [-22.3189735, -49.0556085],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_b76435ddbef4ff908bc3ea7d2c509535 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54821722f4966f9712d4e7a604a48404 = $(`<div id="html_54821722f4966f9712d4e7a604a48404" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA SAINT MARTIN COM RUA ANTÔNIO GARCIA.</b><br>Distância: 2.52 km<br>Salário: 888.96</div>`)[0];
+                popup_b76435ddbef4ff908bc3ea7d2c509535.setContent(html_54821722f4966f9712d4e7a604a48404);
+            
+        
+
+        marker_3b5efc38b7b2925a18e329cc2f96d9be.bindPopup(popup_b76435ddbef4ff908bc3ea7d2c509535)
+        ;
+
+        
+    
+    
+            var marker_34487c8b074415f887607b050318e6dd = L.marker(
+                [-22.2912067, -49.0588125],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_c6f7b30864bfb033f8e03165ad308844 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f329cb3afdcfa5b0b8f86714b2931c5c = $(`<div id="html_f329cb3afdcfa5b0b8f86714b2931c5c" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA LAZARO VILAR COM A RUA JOSÉ LIMAO GARCIA.</b><br>Distância: 5.53 km<br>Salário: 876.41</div>`)[0];
+                popup_c6f7b30864bfb033f8e03165ad308844.setContent(html_f329cb3afdcfa5b0b8f86714b2931c5c);
+            
+        
+
+        marker_34487c8b074415f887607b050318e6dd.bindPopup(popup_c6f7b30864bfb033f8e03165ad308844)
+        ;
+
+        
+    
+    
+            var marker_3ed4a7519d3e86e4a4394a49b85b3383 = L.marker(
+                [-22.3192627, -49.090072],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_e95493e68b3f0e04e6e61dad66a33e67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1b7d4a692d12ebdf11f33ba014f5fe2 = $(`<div id="html_c1b7d4a692d12ebdf11f33ba014f5fe2" style="width: 100.0%; height: 100.0%;"><b> RUA CAETANO CARIANI COM A RUA SANTA TEREZINHA.</b><br>Distância: 5.15 km<br>Salário: 875.65</div>`)[0];
+                popup_e95493e68b3f0e04e6e61dad66a33e67.setContent(html_c1b7d4a692d12ebdf11f33ba014f5fe2);
+            
+        
+
+        marker_3ed4a7519d3e86e4a4394a49b85b3383.bindPopup(popup_e95493e68b3f0e04e6e61dad66a33e67)
+        ;
+
+        
+    
+    
+            var marker_1719dc5e0a499f58277ee056da57ee7a = L.marker(
+                [-22.3572205, -49.103076],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_67db1157f77d0cdc13df5dc997d374ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9f2a460ab7923b6e285617d8ca63d81 = $(`<div id="html_e9f2a460ab7923b6e285617d8ca63d81" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA TOMAZ BOSCO COM A RU AJOSÉ BUENO CAMARGO SOBRINHO.</b><br>Distância: 6.29 km<br>Salário: 872.54</div>`)[0];
+                popup_67db1157f77d0cdc13df5dc997d374ed.setContent(html_e9f2a460ab7923b6e285617d8ca63d81);
+            
+        
+
+        marker_1719dc5e0a499f58277ee056da57ee7a.bindPopup(popup_67db1157f77d0cdc13df5dc997d374ed)
+        ;
+
+        
+    
+    
+            var marker_7e3c645139377f47ff999f7ae4867346 = L.marker(
+                [-22.3156435, -49.0187899],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_0d73801d17e2dd4cc28429bb6281d8c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9878137ebca27078e8af224eed7a098c = $(`<div id="html_9878137ebca27078e8af224eed7a098c" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA RUA JORGE SCHNEYDER FILHO COM A AVENIDA SANTA BEATRIZ DA SILVA.</b><br>Distância: 3.78 km<br>Salário: 867.33</div>`)[0];
+                popup_0d73801d17e2dd4cc28429bb6281d8c4.setContent(html_9878137ebca27078e8af224eed7a098c);
+            
+        
+
+        marker_7e3c645139377f47ff999f7ae4867346.bindPopup(popup_0d73801d17e2dd4cc28429bb6281d8c4)
+        ;
+
+        
+    
+    
+            var marker_c34eb72d8909d99147cdab88898b4b26 = L.marker(
+                [-22.3031204, -49.107217],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_9aa53353757f4efa8a3d5d5b241702a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d53f79ee881dfd9d011e5f794de9c38 = $(`<div id="html_4d53f79ee881dfd9d011e5f794de9c38" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA ALAMEDA PASCAL COM A RUA PROFESSOR FRANCISCO AYRTON BUSCH.</b><br>Distância: 7.56 km<br>Salário: 864.27</div>`)[0];
+                popup_9aa53353757f4efa8a3d5d5b241702a4.setContent(html_4d53f79ee881dfd9d011e5f794de9c38);
+            
+        
+
+        marker_c34eb72d8909d99147cdab88898b4b26.bindPopup(popup_9aa53353757f4efa8a3d5d5b241702a4)
+        ;
+
+        
+    
+    
+            var marker_ed62ccc9b53376cc5d5e6211de0fa549 = L.marker(
+                [-22.3643571, -49.044134],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_1e0cdb68956c71ccee5082696cdb5284 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e21f5dffc9411169173db07e1446225b = $(`<div id="html_e21f5dffc9411169173db07e1446225b" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA LUIZ TENTOR COM A RUA ADOLFO JOSÉ AIELO.</b><br>Distância: 2.75 km<br>Salário: 859.25</div>`)[0];
+                popup_1e0cdb68956c71ccee5082696cdb5284.setContent(html_e21f5dffc9411169173db07e1446225b);
+            
+        
+
+        marker_ed62ccc9b53376cc5d5e6211de0fa549.bindPopup(popup_1e0cdb68956c71ccee5082696cdb5284)
+        ;
+
+        
+    
+    
+            var marker_ecf6ab0a57e15c0ea7e986d2e79a3334 = L.marker(
+                [-22.3149322, -49.0262501],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_b5d8331a3f583e8ea4e1e54a9651c93c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c653ed46659879fccba731bb474e7021 = $(`<div id="html_c653ed46659879fccba731bb474e7021" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA CARLOS GIAXA COM A RUA ALBERTO PASQUARELLI.</b><br>Distância: 3.34 km<br>Salário: 858.42</div>`)[0];
+                popup_b5d8331a3f583e8ea4e1e54a9651c93c.setContent(html_c653ed46659879fccba731bb474e7021);
+            
+        
+
+        marker_ecf6ab0a57e15c0ea7e986d2e79a3334.bindPopup(popup_b5d8331a3f583e8ea4e1e54a9651c93c)
+        ;
+
+        
+    
+    
+            var marker_911ba04feea181c702b770668a761b44 = L.marker(
+                [-22.3629464, -49.1011311],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_cb253fbe2d59bac7fffc7950e23178ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2cc9a541ab80be58dbacc380ea47daa = $(`<div id="html_f2cc9a541ab80be58dbacc380ea47daa" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA NELSON MORTARI COM A RUA JOSÉ BUENO CAMARGO SOBRINHO.</b><br>Distância: 6.33 km<br>Salário: 855.41</div>`)[0];
+                popup_cb253fbe2d59bac7fffc7950e23178ae.setContent(html_f2cc9a541ab80be58dbacc380ea47daa);
+            
+        
+
+        marker_911ba04feea181c702b770668a761b44.bindPopup(popup_cb253fbe2d59bac7fffc7950e23178ae)
+        ;
+
+        
+    
+    
+            var marker_97408aa2a056928968d68bc655f55175 = L.marker(
+                [-22.3643571, -49.044134],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_659ffa59663b80e5d3314c6f91587b4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49bc3ac12215c2e423c0debac2bc5bff = $(`<div id="html_49bc3ac12215c2e423c0debac2bc5bff" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA ANGELINA BERTELLI COM RUA MARIA JOSÉ TEODORO DARESCO.</b><br>Distância: 2.75 km<br>Salário: 844.03</div>`)[0];
+                popup_659ffa59663b80e5d3314c6f91587b4a.setContent(html_49bc3ac12215c2e423c0debac2bc5bff);
+            
+        
+
+        marker_97408aa2a056928968d68bc655f55175.bindPopup(popup_659ffa59663b80e5d3314c6f91587b4a)
+        ;
+
+        
+    
+    
+            var marker_e138b36b110f91a22614fba6ed7d890d = L.marker(
+                [-22.2937803, -49.0830327],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_ccfc8fba2044ee8d6d7690585f55c4d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5da6ff0ac8083ded030ea0a5910be41c = $(`<div id="html_5da6ff0ac8083ded030ea0a5910be41c" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA TENENTE JOAQUIM DA COSTA GUIMARÃES COM A RUA ANTÔNIO JOSÉ PARENTE.</b><br>Distância: 6.40 km<br>Salário: 836.92</div>`)[0];
+                popup_ccfc8fba2044ee8d6d7690585f55c4d4.setContent(html_5da6ff0ac8083ded030ea0a5910be41c);
+            
+        
+
+        marker_e138b36b110f91a22614fba6ed7d890d.bindPopup(popup_ccfc8fba2044ee8d6d7690585f55c4d4)
+        ;
+
+        
+    
+    
+            var marker_5b5d5604a73d1b5b8c24a22245d05094 = L.marker(
+                [-22.2678986, -49.0682172],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_01eeb7a0e2de694aa473a5aedaa025e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55a946e0ec6a72791307b5225eb1437f = $(`<div id="html_55a946e0ec6a72791307b5225eb1437f" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA JOAQUIM BOTEON COM A RUA JOAQUIM AUGUSTO DA COSTA.</b><br>Distância: 8.28 km<br>Salário: 826.04</div>`)[0];
+                popup_01eeb7a0e2de694aa473a5aedaa025e0.setContent(html_55a946e0ec6a72791307b5225eb1437f);
+            
+        
+
+        marker_5b5d5604a73d1b5b8c24a22245d05094.bindPopup(popup_01eeb7a0e2de694aa473a5aedaa025e0)
+        ;
+
+        
+    
+    
+            var marker_b9b501c48d09ae7e434f16c4cd7b257f = L.marker(
+                [-22.3059476, -49.117629],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_e36ded26b2e916710ab581d4363f0492 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44d6e06c6e2720c78620495cf76a499f = $(`<div id="html_44d6e06c6e2720c78620495cf76a499f" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA PEDRO GIRALDI COM A DIVISA DA RODOVIA COMANDANTE JOÃO RIBEIRO DE BARROS SP-294 BAURU/ MARÍLIA.</b><br>Distância: 8.35 km<br>Salário: 822.39</div>`)[0];
+                popup_e36ded26b2e916710ab581d4363f0492.setContent(html_44d6e06c6e2720c78620495cf76a499f);
+            
+        
+
+        marker_b9b501c48d09ae7e434f16c4cd7b257f.bindPopup(popup_e36ded26b2e916710ab581d4363f0492)
+        ;
+
+        
+    
+    
+            var marker_9f50ed82e17e488d64a6cee72906ab26 = L.marker(
+                [-22.3049922, -49.1153707],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_cc5a0966db0f3b9aa445468de24849b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc4a4f40d3ed1f8b97106cfab0278806 = $(`<div id="html_dc4a4f40d3ed1f8b97106cfab0278806" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA PEDRO ÁLVARES MANSERA COM A RUA JOSÉ CLÁUDIO DE LIMA.</b><br>Distância: 8.19 km<br>Salário: 818.69</div>`)[0];
+                popup_cc5a0966db0f3b9aa445468de24849b3.setContent(html_dc4a4f40d3ed1f8b97106cfab0278806);
+            
+        
+
+        marker_9f50ed82e17e488d64a6cee72906ab26.bindPopup(popup_cc5a0966db0f3b9aa445468de24849b3)
+        ;
+
+        
+    
+    
+            var marker_4008720276732259ab9adeff58b8772e = L.marker(
+                [-22.327888, -49.0279299],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_e80284fe81b2ce80e4f3906aa9195088 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f58d078e3edaf6cd42227275208b8e6b = $(`<div id="html_f58d078e3edaf6cd42227275208b8e6b" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA CÍCERO BISPO DE SOUZA COM A RUA LOURENÇO CAPRIOLLI.</b><br>Distância: 2.19 km<br>Salário: 818.00</div>`)[0];
+                popup_e80284fe81b2ce80e4f3906aa9195088.setContent(html_f58d078e3edaf6cd42227275208b8e6b);
+            
+        
+
+        marker_4008720276732259ab9adeff58b8772e.bindPopup(popup_e80284fe81b2ce80e4f3906aa9195088)
+        ;
+
+        
+    
+    
+            var marker_be74c51cd0cdf2baa65373ad94aad149 = L.marker(
+                [-22.2754898, -49.0826282],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_6b02441b250756bb0cc892afdea5545d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95aa57178be205cb7d4b3b1903d71f04 = $(`<div id="html_95aa57178be205cb7d4b3b1903d71f04" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA RUA WALTER HUGO BARRETO CORREIA COM A RUA ANTÔNIO HOJAS.</b><br>Distância: 8.08 km<br>Salário: 796.28</div>`)[0];
+                popup_6b02441b250756bb0cc892afdea5545d.setContent(html_95aa57178be205cb7d4b3b1903d71f04);
+            
+        
+
+        marker_be74c51cd0cdf2baa65373ad94aad149.bindPopup(popup_6b02441b250756bb0cc892afdea5545d)
+        ;
+
+        
+    
+    
+            var marker_3b9d82bfe4d3c5d981c12f7feb77d73c = L.marker(
+                [-22.2696019, -49.0761495],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_3cb479e8427f0c55269125f6f1fda7e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62b8785be451144ce392a58e44d241e4 = $(`<div id="html_62b8785be451144ce392a58e44d241e4" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA OSCAR SWENSON COM A RUA PEDRO BARREIRO DE FIGUEIREDO.</b><br>Distância: 8.38 km<br>Salário: 774.33</div>`)[0];
+                popup_3cb479e8427f0c55269125f6f1fda7e1.setContent(html_62b8785be451144ce392a58e44d241e4);
+            
+        
+
+        marker_3b9d82bfe4d3c5d981c12f7feb77d73c.bindPopup(popup_3cb479e8427f0c55269125f6f1fda7e1)
+        ;
+
+        
+    
+    
+            var marker_105743e4163ad885d792eccbaa895ffb = L.marker(
+                [-22.3526647, -49.0967504],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_7d9d3b00746423785ecdc9d50e9b8eec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_618c7e65129d02080617f3f03e373a1b = $(`<div id="html_618c7e65129d02080617f3f03e373a1b" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA JOSÉ HENRIQUE FERRAZ COM A RUA NICOLAU DEL GALLO.</b><br>Distância: 5.52 km<br>Salário: 766.49</div>`)[0];
+                popup_7d9d3b00746423785ecdc9d50e9b8eec.setContent(html_618c7e65129d02080617f3f03e373a1b);
+            
+        
+
+        marker_105743e4163ad885d792eccbaa895ffb.bindPopup(popup_7d9d3b00746423785ecdc9d50e9b8eec)
+        ;
+
+        
+    
+    
+            var marker_69e8f47ade68eafd0a01eec4b927c92b = L.marker(
+                [-22.3189735, -49.0556085],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_7f6023bd33a5c6b13507b40c170df0c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21eda41aaf7e643ddd70734127405b01 = $(`<div id="html_21eda41aaf7e643ddd70734127405b01" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA WALTER RODOLFO COM RUA JOÃO SOTERO DE CASTRO.</b><br>Distância: 2.52 km<br>Salário: 753.11</div>`)[0];
+                popup_7f6023bd33a5c6b13507b40c170df0c7.setContent(html_21eda41aaf7e643ddd70734127405b01);
+            
+        
+
+        marker_69e8f47ade68eafd0a01eec4b927c92b.bindPopup(popup_7f6023bd33a5c6b13507b40c170df0c7)
+        ;
+
+        
+    
+    
+            var marker_d9079bed24cca6ca4b2d538f03854b24 = L.marker(
+                [-22.3189735, -49.0556085],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_7e3f9df3bcf34bd746e5c9ba245c1b2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8db7635074df5344392be6b5e96ee358 = $(`<div id="html_8db7635074df5344392be6b5e96ee358" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA ANTÔNIO MOLINA COM GALVÃO DE CASTRO.</b><br>Distância: 2.52 km<br>Salário: 721.46</div>`)[0];
+                popup_7e3f9df3bcf34bd746e5c9ba245c1b2c.setContent(html_8db7635074df5344392be6b5e96ee358);
+            
+        
+
+        marker_d9079bed24cca6ca4b2d538f03854b24.bindPopup(popup_7e3f9df3bcf34bd746e5c9ba245c1b2c)
+        ;
+
+        
+    
+    
+            var marker_dfd01d316f48916f61b1f3efb05626ff = L.marker(
+                [-22.3132836, -49.1176198],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_fa84b603ca3db8abf48885edaa46092d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c418b4252a94fcc6353f314cb50698be = $(`<div id="html_c418b4252a94fcc6353f314cb50698be" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA MANOEL CASTELLANO RODRIGUES COM A RUA SÃO SEBASTIÃO.</b><br>Distância: 8.02 km<br>Salário: 714.44</div>`)[0];
+                popup_fa84b603ca3db8abf48885edaa46092d.setContent(html_c418b4252a94fcc6353f314cb50698be);
+            
+        
+
+        marker_dfd01d316f48916f61b1f3efb05626ff.bindPopup(popup_fa84b603ca3db8abf48885edaa46092d)
+        ;
+
+        
+    
+    
+            var marker_ff3633b8fcfb90f5bbb686dddd37799c = L.marker(
+                [-22.3334625, -49.0226772],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_e8cae35f21d0b50870e486792601ae4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf2b89942d4127d559c8610102def805 = $(`<div id="html_bf2b89942d4127d559c8610102def805" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA LÚCIO LUCIANO COM A ALAMEDA ENGENHEIRO JOÃO B. P. FANTIN.</b><br>Distância: 2.40 km<br>Salário: 714.43</div>`)[0];
+                popup_e8cae35f21d0b50870e486792601ae4c.setContent(html_bf2b89942d4127d559c8610102def805);
+            
+        
+
+        marker_ff3633b8fcfb90f5bbb686dddd37799c.bindPopup(popup_e8cae35f21d0b50870e486792601ae4c)
+        ;
+
+        
+    
+    
+            var marker_596571c5c760b31b08ad5930dbcf635b = L.marker(
+                [-22.3363615, -49.028468],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_6c831eb6a2c7f56b4bb4fd2cf112e78a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e16f7fab2d64cd915ba2a34dd4903424 = $(`<div id="html_e16f7fab2d64cd915ba2a34dd4903424" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA LUIZ TENTOR COM O CÓRREGO ÁGUA DO JOÃO COSTA.</b><br>Distância: 1.75 km<br>Salário: 709.29</div>`)[0];
+                popup_6c831eb6a2c7f56b4bb4fd2cf112e78a.setContent(html_e16f7fab2d64cd915ba2a34dd4903424);
+            
+        
+
+        marker_596571c5c760b31b08ad5930dbcf635b.bindPopup(popup_6c831eb6a2c7f56b4bb4fd2cf112e78a)
+        ;
+
+        
+    
+    
+            var marker_db1b6c7d8f31216fe59c66b27cf79126 = L.marker(
+                [-22.3051908, -49.109754],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_00db0f72315e4247b5d4a24ebd76ccd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5eaf56222eda3340f47559d850b33d56 = $(`<div id="html_5eaf56222eda3340f47559d850b33d56" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA EDSON PEREIRA LEITE COM A AVENIDA DO CONTORNO.</b><br>Distância: 7.67 km<br>Salário: 706.41</div>`)[0];
+                popup_00db0f72315e4247b5d4a24ebd76ccd0.setContent(html_5eaf56222eda3340f47559d850b33d56);
+            
+        
+
+        marker_db1b6c7d8f31216fe59c66b27cf79126.bindPopup(popup_00db0f72315e4247b5d4a24ebd76ccd0)
+        ;
+
+        
+    
+    
+            var marker_7cf14c2335426e3f4d792b89c934e475 = L.marker(
+                [-22.3049922, -49.1153707],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_f8ae7b4bc60b418f6b3e631f1ab6f2eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_361c57d39a02361df580ba4c9415c251 = $(`<div id="html_361c57d39a02361df580ba4c9415c251" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA AZOR GARCIA DOS SANTOS COM RUA EDEGHAL APARÍCIO BIONDO.</b><br>Distância: 8.19 km<br>Salário: 688.79</div>`)[0];
+                popup_f8ae7b4bc60b418f6b3e631f1ab6f2eb.setContent(html_361c57d39a02361df580ba4c9415c251);
+            
+        
+
+        marker_7cf14c2335426e3f4d792b89c934e475.bindPopup(popup_f8ae7b4bc60b418f6b3e631f1ab6f2eb)
+        ;
+
+        
+    
+    
+            var marker_03166f342bea118612a7a7d448dbfc96 = L.marker(
+                [-22.3267491, -49.1119981],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_4e203af0e3ec8a47e6a4def619e266f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa84ad1d3fe41acd29c02999554c2a0a = $(`<div id="html_fa84ad1d3fe41acd29c02999554c2a0a" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA WALTER RODOLPHO COM A AVENIDA ELIAS MIGUEL MALUF.</b><br>Distância: 7.04 km<br>Salário: 669.77</div>`)[0];
+                popup_4e203af0e3ec8a47e6a4def619e266f4.setContent(html_fa84ad1d3fe41acd29c02999554c2a0a);
+            
+        
+
+        marker_03166f342bea118612a7a7d448dbfc96.bindPopup(popup_4e203af0e3ec8a47e6a4def619e266f4)
+        ;
+
+        
+    
+    
+            var marker_03acd0c2c620299b5fc248c70cf14425 = L.marker(
+                [-22.319765, -49.0092803],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_bf4efb102b864ac6b1a148ea0f121add = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_183c54e46eb6e60b4bcadcd018c16575 = $(`<div id="html_183c54e46eb6e60b4bcadcd018c16575" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA NAOKI SHINOHARA COM A RUA NATAL FORNAZARI.</b><br>Distância: 4.29 km<br>Salário: 650.00</div>`)[0];
+                popup_bf4efb102b864ac6b1a148ea0f121add.setContent(html_183c54e46eb6e60b4bcadcd018c16575);
+            
+        
+
+        marker_03acd0c2c620299b5fc248c70cf14425.bindPopup(popup_bf4efb102b864ac6b1a148ea0f121add)
+        ;
+
+        
+    
+    
+            var marker_4d0a2906a541ee44d8da0c55548a6d6e = L.marker(
+                [-22.3289589, -49.1187057],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_2165faa68157b8ccc7733030325178bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ebe41e78161bbf6025a219cf7be1680 = $(`<div id="html_2ebe41e78161bbf6025a219cf7be1680" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA AVENIDA WALDEMAR GUIMARÃES FERREIRA COM OS TRILHOS DA NOVOESTE.</b><br>Distância: 7.67 km<br>Salário: 642.71</div>`)[0];
+                popup_2165faa68157b8ccc7733030325178bf.setContent(html_2ebe41e78161bbf6025a219cf7be1680);
+            
+        
+
+        marker_4d0a2906a541ee44d8da0c55548a6d6e.bindPopup(popup_2165faa68157b8ccc7733030325178bf)
+        ;
+
+        
+    
+    
+            var marker_e247c0858d0c97fe46bc419d7c701e68 = L.marker(
+                [-22.3189735, -49.0556085],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_a7efec66287765e6e88d42f2207b4342 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1db062d52d0ecf8b87591e8567b0c8d6 = $(`<div id="html_1db062d52d0ecf8b87591e8567b0c8d6" style="width: 100.0%; height: 100.0%;"><b>RESIDENCIAL VILA GRENÁ - LOCALIZADO NA RUA CRISTIANO PAGANI NÚMERO 10-49.</b><br>Distância: 2.52 km<br>Salário: 638.35</div>`)[0];
+                popup_a7efec66287765e6e88d42f2207b4342.setContent(html_1db062d52d0ecf8b87591e8567b0c8d6);
+            
+        
+
+        marker_e247c0858d0c97fe46bc419d7c701e68.bindPopup(popup_a7efec66287765e6e88d42f2207b4342)
+        ;
+
+        
+    
+    
+            var marker_5412d1c0bdf253a4f79692ba89177205 = L.marker(
+                [-22.3065138, -49.1158484],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_150d34d81df16aa7366044ea11456bac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_808ed0a6ef7e6fa22208c27a96c9f5e6 = $(`<div id="html_808ed0a6ef7e6fa22208c27a96c9f5e6" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA JESO CONTIJO DE MORAES COM A RUA JÚLIA RIBEIRO VECCHI.</b><br>Distância: 8.15 km<br>Salário: 618.67</div>`)[0];
+                popup_150d34d81df16aa7366044ea11456bac.setContent(html_808ed0a6ef7e6fa22208c27a96c9f5e6);
+            
+        
+
+        marker_5412d1c0bdf253a4f79692ba89177205.bindPopup(popup_150d34d81df16aa7366044ea11456bac)
+        ;
+
+        
+    
+    
+            var marker_7a69bad73dc99b358ff5b16f9c2b2e92 = L.marker(
+                [-22.3352483, -49.0324821],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_db14e5214871061cff940e2cb62d1776 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_364913fe3b7bf32252150ed290be4216 = $(`<div id="html_364913fe3b7bf32252150ed290be4216" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA ENGENHEIRO XERXES RIBEIRO DOS SANTOS COM A RUA ALZIRO ZARZUR.</b><br>Distância: 1.38 km<br>Salário: 611.77</div>`)[0];
+                popup_db14e5214871061cff940e2cb62d1776.setContent(html_364913fe3b7bf32252150ed290be4216);
+            
+        
+
+        marker_7a69bad73dc99b358ff5b16f9c2b2e92.bindPopup(popup_db14e5214871061cff940e2cb62d1776)
+        ;
+
+        
+    
+    
+            var marker_1360af6ea5fdebe8604bed983708cb3c = L.marker(
+                [-22.3120346, -49.1043521],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_84064161a4885a12f5e38adc095dcdb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf8198ff848241eaf25fad6b1a08f70a = $(`<div id="html_bf8198ff848241eaf25fad6b1a08f70a" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA ALAMEDA TRÓIA COM A ALAMEDA EMATITE.</b><br>Distância: 6.82 km<br>Salário: 594.37</div>`)[0];
+                popup_84064161a4885a12f5e38adc095dcdb4.setContent(html_bf8198ff848241eaf25fad6b1a08f70a);
+            
+        
+
+        marker_1360af6ea5fdebe8604bed983708cb3c.bindPopup(popup_84064161a4885a12f5e38adc095dcdb4)
+        ;
+
+        
+    
+    
+            var marker_e5170ac1ac193bc7644ac87f05dd8357 = L.marker(
+                [-22.327888, -49.0279299],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_9776899c0ead19175f9f68e60f540246 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30fb43f7af798c1d79c066d45a2ea2a2 = $(`<div id="html_30fb43f7af798c1d79c066d45a2ea2a2" style="width: 100.0%; height: 100.0%;"><b>AVENIDA LÚCIO LUCIANO.</b><br>Distância: 2.19 km<br>Salário: 584.79</div>`)[0];
+                popup_9776899c0ead19175f9f68e60f540246.setContent(html_30fb43f7af798c1d79c066d45a2ea2a2);
+            
+        
+
+        marker_e5170ac1ac193bc7644ac87f05dd8357.bindPopup(popup_9776899c0ead19175f9f68e60f540246)
+        ;
+
+        
+    
+    
+            var marker_f860ced1e58e51187eaf74dd1037833f = L.marker(
+                [-22.3111587, -49.1069511],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_dc9dd0bcde56157c8d0ae13f6a3d8dd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df316e06f7aaea5a1d458dd55c554863 = $(`<div id="html_df316e06f7aaea5a1d458dd55c554863" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA ALAMEDA ACRÓPOLE COM A ALAMEDA VÊNUS.</b><br>Distância: 7.10 km<br>Salário: 554.86</div>`)[0];
+                popup_dc9dd0bcde56157c8d0ae13f6a3d8dd3.setContent(html_df316e06f7aaea5a1d458dd55c554863);
+            
+        
+
+        marker_f860ced1e58e51187eaf74dd1037833f.bindPopup(popup_dc9dd0bcde56157c8d0ae13f6a3d8dd3)
+        ;
+
+        
+    
+    
+            var marker_861310d38893430328918686c88ccd0d = L.marker(
+                [-22.3242806, -49.0959802],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_183fe0fc5473484700790df3c8dbd7f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_604adbcc6723d8acfbb3e5602fb64a28 = $(`<div id="html_604adbcc6723d8acfbb3e5602fb64a28" style="width: 100.0%; height: 100.0%;"><b> CÓRREGO DA LAGOA COM OS TRILHOS DA FERROBAN.</b><br>Distância: 5.51 km<br>Salário: 537.85</div>`)[0];
+                popup_183fe0fc5473484700790df3c8dbd7f6.setContent(html_604adbcc6723d8acfbb3e5602fb64a28);
+            
+        
+
+        marker_861310d38893430328918686c88ccd0d.bindPopup(popup_183fe0fc5473484700790df3c8dbd7f6)
+        ;
+
+        
+    
+    
+            var marker_faece2218f494da79e8342f2c2c39351 = L.marker(
+                [-22.3065138, -49.1158484],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_ce6e9d7369c4ab56d65ba6907be9347b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b69abcf1e331520fb485966b741325d2 = $(`<div id="html_b69abcf1e331520fb485966b741325d2" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA JESO CONTIJO DE MORAES COM A RUA AMINA HAVAD GIACOVANI.</b><br>Distância: 8.15 km<br>Salário: 475.47</div>`)[0];
+                popup_ce6e9d7369c4ab56d65ba6907be9347b.setContent(html_b69abcf1e331520fb485966b741325d2);
+            
+        
+
+        marker_faece2218f494da79e8342f2c2c39351.bindPopup(popup_ce6e9d7369c4ab56d65ba6907be9347b)
+        ;
+
+        
+    
+    
+            var marker_120350b940703697dffbbced1b5b5307 = L.marker(
+                [-22.3049922, -49.1153707],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_d45f64bdc928911ad602a969812374bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3262996b8f5e7dc574aad0cdea1c1c1 = $(`<div id="html_f3262996b8f5e7dc574aad0cdea1c1c1" style="width: 100.0%; height: 100.0%;"><b>CRUZAMENTO DA RUA PEDRO ÁLVARES MANSERA COM A RODOVIA COMANDANTE JOÃO RIBEIRO DE BARROS SP-294.</b><br>Distância: 8.19 km<br>Salário: 427.11</div>`)[0];
+                popup_d45f64bdc928911ad602a969812374bf.setContent(html_f3262996b8f5e7dc574aad0cdea1c1c1);
+            
+        
+
+        marker_120350b940703697dffbbced1b5b5307.bindPopup(popup_d45f64bdc928911ad602a969812374bf)
+        ;
+
+        
+    
+    
+            var marker_a56dd8f3f8a22c355139b4fc73821dce = L.marker(
+                [-22.3156435, -49.0187899],
+                {}
+            ).addTo(map_f133e10c1aa4274f4dc4810772c18897);
+        
+    
+        var popup_0f099698ba0f3ccaa1cc73ec27ba493c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc08394183e5129bafa3d7d97b09aeb4 = $(`<div id="html_cc08394183e5129bafa3d7d97b09aeb4" style="width: 100.0%; height: 100.0%;"><b>ENTRONCAMENTO DA RUA JORGE SCHNEYDER FILHO COM A AVENIDA DE ACESSO HORÁCIO FREDERICO PYLES.</b><br>Distância: 3.78 km<br>Salário: 257.11</div>`)[0];
+                popup_0f099698ba0f3ccaa1cc73ec27ba493c.setContent(html_cc08394183e5129bafa3d7d97b09aeb4);
+            
+        
+
+        marker_a56dd8f3f8a22c355139b4fc73821dce.bindPopup(popup_0f099698ba0f3ccaa1cc73ec27ba493c)
+        ;
+
+        
+    
+</script>
+</html>
